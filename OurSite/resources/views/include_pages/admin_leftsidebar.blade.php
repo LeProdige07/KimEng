@@ -76,7 +76,7 @@
                     </ul>
                 </li>
                 @endpermission
-              {{--  @permission('Service', 'read')
+                @permission('Service', 'read')
                 <li
                     class="nav-item has-treeview
             {{ request()->is('services') ? 'menu-open' : '' }} {{ request()->is('services/create') ? 'menu-open' : '' }}
@@ -304,26 +304,6 @@
                     </ul>
                 </li>
                 @endpermission
-                @permission('Contact', 'read')
-                <li class="nav-item has-treeview {{ request()->is('contacts') ? 'menu-open' : '' }}">
-                    <a href="#" class="nav-link {{ request()->is('contacts') ? 'active' : '' }}">
-                        <i class="nav-icon fas fa-folder"></i>
-                        <p>
-                            Contacts
-                            <i class="fas fa-angle-left right"></i>
-                        </p>
-                    </a>
-                    <ul class="nav nav-treeview">
-                        <li class="nav-item">
-                            <a href="{{ route('contacts.index') }}"
-                                class="nav-link {{ request()->is('contacts') ? 'active' : '' }}">
-                                <i class="far fa-file nav-icon"></i>
-                                <p>Contacts</p>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-                @endpermission --}}
             </ul>
         </nav>
         <!-- /.sidebar-menu -->

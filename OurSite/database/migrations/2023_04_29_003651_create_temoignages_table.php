@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateClientSatisfaitsTable extends Migration
+class CreateTemoignagesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,12 @@ class CreateClientSatisfaitsTable extends Migration
      */
     public function up()
     {
-        Schema::create('client_satisfaits', function (Blueprint $table) {
+        Schema::create('temoignages', function (Blueprint $table) {
             $table->id();
-            $table->string('designation');
-            $table->string('logo_client');
+            $table->string('temoin_name');
+            $table->string('temoin_image');
+            $table->text('temoin_contenu');
+            $table->string('grade');
             $table->integer('status');
             $table->timestamps();
         });
@@ -29,6 +31,6 @@ class CreateClientSatisfaitsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('client_satisfaits');
+        Schema::dropIfExists('temoignages');
     }
 }
