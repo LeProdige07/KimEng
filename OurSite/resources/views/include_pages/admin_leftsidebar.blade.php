@@ -30,7 +30,7 @@
                         </li>
                     </ul>
                 </li>
-                {{-- @permission('User', 'read')
+                 @permission('User', 'read')
                     <li
                         class="nav-item has-treeview
             {{ request()->is('users') ? 'menu-open' : '' }}
@@ -76,7 +76,7 @@
                     </ul>
                 </li>
                 @endpermission
-                @permission('Service', 'read')
+              {{--  @permission('Service', 'read')
                 <li
                     class="nav-item has-treeview
             {{ request()->is('services') ? 'menu-open' : '' }} {{ request()->is('services/create') ? 'menu-open' : '' }}

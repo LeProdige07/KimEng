@@ -19,4 +19,5 @@ Route::get('/', function () {
 
 Auth::routes();
 
+require_once('admin_routes.php');
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

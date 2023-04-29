@@ -31,7 +31,7 @@
         <li class="nav-item d-none d-sm-inline-block">
             <a href="{{route('contacts.index')}}" class="nav-link">Contacts</a>
         </li>
-        @endpermission
+        @endpermission --}}
     </ul>
     <!-- Right navbar links -->
     <ul class="navbar-nav ml-auto">
@@ -51,7 +51,7 @@
                 <div class="dropdown-divider"></div>
         </li>
 
-        <!-- Messages Dropdown Menu -->
+        {{-- <!-- Messages Dropdown Menu -->
         @permission('Contact', 'read')
         <li class="nav-item dropdown">
             <a class="nav-link" data-toggle="dropdown" href="#">
