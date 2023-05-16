@@ -1,5 +1,7 @@
-@extends('layouts.app')
-
+@extends('admin_layout.admin')
+@section('title')
+Tableau de Bord
+@endsection
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
