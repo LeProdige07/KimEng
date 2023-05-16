@@ -18,7 +18,7 @@
                     <div class="col-12">
                         <div class="card">
                             <div class="card-header">
-                                <h3 class="card-title">Tous les Projects de CDS</h3>
+                                <h3 class="card-title">Tous les Projects de Kim Engineering</h3>
                             </div>
                             @if (Session::has('status'))
                                 <div class="alert alert-success">
