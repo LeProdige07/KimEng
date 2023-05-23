@@ -1,0 +1,13 @@
+<?php
+
+
+
+Route::get('/', [App\Http\Controllers\ClientController::class, 'home']);
+Route::get('/about', [App\Http\Controllers\ClientController::class, 'about']);
+Route::get('/services_us', [App\Http\Controllers\ClientController::class, 'services_us']);
+Route::get('/projets_us', [App\Http\Controllers\ClientController::class, 'projets_us']);
+Route::get('/team', [App\Http\Controllers\ClientController::class, 'team']);
+Route::get('/logette', [App\Http\Controllers\ClientController::class, 'logette']);
+Route::get('/news', [App\Http\Controllers\ClientController::class, 'news']);
+Route::get('/contact', [App\Http\Controllers\ClientController::class, 'contact']);
+Route::get('/single_new/{id}', [App\Http\Controllers\ClientController::class, 'single_new']);

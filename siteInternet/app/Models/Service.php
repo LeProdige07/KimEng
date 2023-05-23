@@ -8,4 +8,12 @@ use Illuminate\Database\Eloquent\Model;
 class Service extends Model
 {
     use HasFactory;
+
+    public function color($key){
+        if($key%2 == 0){
+            return 'color-bg';
+        }else {
+            return '';
+        }
+    }
 }
