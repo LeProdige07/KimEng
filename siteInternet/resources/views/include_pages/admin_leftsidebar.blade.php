@@ -148,6 +148,42 @@
                     @endpermission
                 </li>
                 @endpermission
+                @permission('Formation', 'read')
+                <li
+                    class="nav-item has-treeview
+            {{ request()->is('formations') ? 'menu-open' : '' }} {{ request()->is('formations/create') ? 'menu-open' : '' }}
+            ">
+                    <a href="#"
+                        class="nav-link
+                {{ request()->is('formations') ? 'active' : '' }} {{ request()->is('formations/create') ? 'active' : '' }}">
+                        <i class="nav-icon fas fa-folder"></i>
+                        <p>
+                            Formations
+                            <i class="fas fa-angle-left right"></i>
+                        </p>
+                    </a>
+                        <ul class="nav nav-treeview">
+                            <li class="nav-item">
+                                <a href="{{ route('formations.index') }}"
+                                    class="nav-link {{ request()->is('formations') ? 'active' : '' }}">
+                                    <i class="far fa-file nav-icon"></i>
+                                    <p>Formations</p>
+                                </a>
+                            </li>
+                        </ul>
+                    @permission('Formation', 'create')
+                        <ul class="nav nav-treeview">
+                            <li class="nav-item">
+                                <a href="{{ route('formations.create') }}"
+                                    class="nav-link {{ request()->is('formations/create') ? 'active' : '' }}">
+                                    <i class="far fa-file nav-icon"></i>
+                                    <p>Créer une formation</p>
+                                </a>
+                            </li>
+                        </ul>
+                    @endpermission
+                </li>
+                @endpermission
                 @permission('Personnel', 'read')
                 <li
                     class="nav-item has-treeview

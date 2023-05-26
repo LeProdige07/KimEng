@@ -58,7 +58,7 @@ Nos Projets
                                                     data-lightbox="image-1">
                                                     <i class="tf-ion-ios-search-strong"></i>
                                                 </a>
-                                                <h4><a href="#">{{ $project->project_name }}</a></h4>
+                                                <h4><a href="{{url('/single_projet',$project->id)}}">{{ $project->project_name }}</a></h4>
                                             </div>
                                         </div>
                                     </div>

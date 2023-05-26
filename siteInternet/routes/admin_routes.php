@@ -12,6 +12,9 @@ Route::resource('temoignages', App\Http\Controllers\TemoignageController::class)
 Route::resource('personnels', App\Http\Controllers\PersonnelController::class)->middleware('access:Personnel');
 Route::resource('clientsatisfaits', App\Http\Controllers\ClientSatisfaitController::class)->middleware('access:ClientSatisfait');
 Route::resource('contacts', App\Http\Controllers\ContactController::class)->middleware('access:Contact');
+Route::resource('galeries', App\Http\Controllers\GaleryController::class)->middleware('access:Galery');
+Route::resource('formations', App\Http\Controllers\FormationController::class)->middleware('access:Formation');
+Route::resource('logette_infos', App\Http\Controllers\LogetteInfoController::class)->middleware('access:LogetteInfo');
 
 // Activer et Désactiver un élément avec l'attribut status
 Route::get('/activer_clientsatisfait/{id}', [App\Http\Controllers\ClientSatisfaitController::class, 'activer_clientsatisfait']);

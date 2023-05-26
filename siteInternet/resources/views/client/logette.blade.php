@@ -17,6 +17,32 @@ Nos Logettes
 		</div>
 	</div>
 </section>
+
+<section class="promo-video section-sm">
+	<div class="container">
+		<div class="row justify-content-center">
+			<!-- section title -->
+			<div class="col-xl-6 col-lg-8">
+				<div class="title text-center">
+					<h2>Notre logette Intelligente</h2>
+					<p>Dans cette vidéo, vous pouvez voir comment fonctionne une logette intelligente.
+						Une logette qui gère automatiquemennt l'électricité d'un batiment, qui fonctionne en monophasé, biphasé
+						et triphasé; connectée à une application mobile qui permet la commande à distance de la distance et donne en temps réel
+						la température, l'humidité, les tensions de la logette et bien d'autres fonctionnalités.
+					</p>
+					<div class="border"></div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<!-- /section title -->
+			<div class="col-md-8 mx-auto">
+				<iframe src="https://player.vimeo.com/video/51119176" width="100%" height="360" frameborder="0"
+					webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			</div>
+		</div>
+	</div>
+</section>
 <!-- Start Pricing section
 		=========================================== -->
 <section class="pricing-table" id="pricing">

@@ -15,14 +15,19 @@
         <div class="row">
 
             <div class="col-md-4 text-center d-none d-md-block">
-                <img loading="lazy" src="frontend/images/about/member.jpg" class="img-fluid inline-block" alt="">
+                <img loading="lazy" src="frontend/images/IMG_5602.jpg" class="img-fluid inline-block" alt="">
             </div>
             <div class="col-md-8">
                 <div class="row text-center">
                     @foreach ($services as $service)
                         <div class="col-md-6 col-sm-6">
                             <div class="service-item">
-                                <i class="tf-ion-ios-briefcase-outline"></i>
+                                <div class="service-icon text-center">
+                                    <img loading="lazy"
+                                        src="{{ asset('storage/service_images/' . $service->service_image) }}"
+                                        alt="amazing caves coverimage" class="img-fluid">
+                                </div>
+                                <br>
                                 <h4>{{$service->service_name}}</h4>
                                 <p>{{$service->service_description}}</p>
                             </div>

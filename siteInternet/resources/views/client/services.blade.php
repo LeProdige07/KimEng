@@ -1,6 +1,6 @@
 @extends('layouts.client')
 @section('title')
-Nos Services
+    Nos Services
 @endsection
 @section('content')
     @include('include_pages.client_navbar')
@@ -20,7 +20,7 @@ Nos Services
     </section>
 
     <!-- Start Services Section
-        ==================================== -->
+            ==================================== -->
 
     <section class="services" id="services">
         <div class="container">
@@ -38,13 +38,15 @@ Nos Services
                 </div>
                 <!-- /section title -->
             </div>
-            <div id="service"  class="row no-gutters">
+            <div id="service" class="row no-gutters">
                 @foreach ($services as $key => $service)
                     <!-- Single Service Item -->
                     <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
                         <div class="service-block p-4 {{ $service->color($key) }} text-center">
                             <div class="service-icon text-center">
-                                <i class="tf-ion-ios-copy-outline"></i>
+                                <img loading="lazy"
+                                    src="{{ asset('storage/service_images/' . $service->service_image) }}"
+                                    alt="amazing caves coverimage" class="img-fluid">
                             </div>
                             <h3>{{ $service->service_name }}</h3>
                             <p>{{ $service->service_description }}</p>
@@ -56,7 +58,7 @@ Nos Services
         </div> <!-- End container -->
     </section> <!-- End section -->
     <!-- Start Team Skills
-        =========================================== -->
+            =========================================== -->
     <section class="team-skills section-sm" id="skills">
         <div class="container">
             <div class="row justify-content-center">
@@ -123,7 +125,9 @@ Nos Services
                 <div class="col-md-12 mt-4">
                     <div id="clients-slider" class="clients-logo-slider">
                         @foreach ($clientsatisfaits as $clientsatisfait)
-                            <img loading="lazy" src="{{asset("storage/clientsatisfait_images/$clientsatisfait->logo_client ")}}" alt="">
+                            <img loading="lazy"
+                                src="{{ asset("storage/clientsatisfait_images/$clientsatisfait->logo_client ") }}"
+                                alt="">
                         @endforeach
                     </div>
                 </div>
@@ -131,8 +135,8 @@ Nos Services
         </div> <!-- End container -->
     </section> <!-- End section -->
     <!--
-        Start Counter Section
-        ==================================== -->
+            Start Counter Section
+            ==================================== -->
     <section class="counter-wrapper section-sm">
         <div class="container">
             <div class="row justify-content-center">
@@ -198,8 +202,8 @@ Nos Services
         </div> <!-- end container -->
     </section> <!-- end section -->
     <!-- Start Testimonial
-        =========================================== -->
-@include('include_pages.client_temoignage')
+            =========================================== -->
+    @include('include_pages.client_temoignage')
 
 
     @include('include_pages.client_footer')

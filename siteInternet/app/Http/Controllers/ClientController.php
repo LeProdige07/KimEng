@@ -73,4 +73,11 @@ class ClientController extends Controller
         $recentnouvelles = Nouvelle::orderBy('id', 'desc')->where('status', 1)->limit(3)->get();
         return view('client.single-new',compact('services','nouvelle','recentnouvelles'));
     }
+
+    public function single_projet($id){
+        $services = Service::where('status', 1)->limit(6)->get();
+        $project = Project::find($id);
+
+        return view('client.single-projet',compact('services','project'));
+    }
 }
