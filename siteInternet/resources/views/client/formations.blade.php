@@ -1,6 +1,6 @@
 @extends('layouts.client')
 @section('title')
-Nos Projets
+Nos Formations
 @endsection
 @section('content')
     @include('include_pages.client_navbar')
@@ -9,10 +9,10 @@ Nos Projets
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h2>Nos Projets</h2>
+                    <h2>Nos Formations</h2>
                     <ol class="breadcrumb header-bradcrumb justify-content-center">
                         <li class="breadcrumb-item"><a href="index.html" class="text-white">Home</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Nos Projets</li>
+                        <li class="breadcrumb-item active" aria-current="page">Nos Formations</li>
                     </ol>
                 </div>
             </div>
@@ -28,7 +28,7 @@ Nos Projets
                 <div class="col-xl-6 col-lg-8">
                     <!-- section title -->
                     <div class="title text-center">
-                        <h2>Nos Projets</h2>
+                        <h2>Nos Formations</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, veritatis. Lorem ipsum dolor sit
                             amet,
                             consectetur adipisicing elit. Minima, vitae? </p>
@@ -46,19 +46,19 @@ Nos Projets
                     <div class="row">
                         <div class="col-12">
                             <div class="filtr-container">
-                                @foreach ($projects as $project)
+                                @foreach ($formations as $formation)
                                     <div class="col-md-3 col-sm-6 col-xs-6 filtr-item "
-                                        data-category="{{ $project->project_service }}">
+                                        data-category="{{ $formation->formation_name }}">
                                         <div class="portfolio-block">
                                             <img class="img-fluid"
-                                                src="storage/project_images/{{ $project->project_image1 }}" alt="project image">
+                                                src="storage/formation_images/{{ $formation->formation_image1 }}" alt="formation image">
                                             <div class="caption">
                                                 <a class="search-icon"
-                                                    href="storage/project_images/{{ $project->project_image2 }}"
+                                                    href="storage/formation_images/{{ $formation->formation_image2 }}"
                                                     data-lightbox="image-1">
                                                     <i class="tf-ion-ios-search-strong"></i>
                                                 </a>
-                                                <h4><a href="{{url('/single_projet',$project->id)}}">{{ $project->project_name }}</a></h4>
+                                                <h4><a href="{{url('/single_formation',$formation->id)}}">{{ $formation->formation_name }}</a></h4>
                                             </div>
                                         </div>
                                     </div>
@@ -70,7 +70,5 @@ Nos Projets
             </div> <!-- end row -->
         </div> <!-- end container -->
     </section> <!-- End section -->
-    @include('include_pages.client_contenu')
-
     @include('include_pages.client_footer')
 @endsection

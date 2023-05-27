@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Galery;
 use App\Models\ClientSatisfait;
+use App\Models\Formation;
 use App\Models\Nouvelle;
 use App\Models\Personnel;
 use App\Models\Project;
@@ -23,7 +24,7 @@ class ClientController extends Controller
     }
 
     public function about(){
-        $personnels = Personnel::all()->where('status', 1);
+        $personnels = Personnel::where('status', 1)->limit(3)->get();
         $services = Service::where('status', 1)->limit(6)->get();
         $galeries = Galery::all();
         return view('client.about', compact('services','personnels','galeries'));
@@ -41,6 +42,11 @@ class ClientController extends Controller
         $services = Service::where('status', 1)->limit(6)->get();
         $projects = Project::all()->where('status', 1);
         return view('client.projets',compact('services','projects'));
+    }
+    public function formations_us(){
+        $services = Service::where('status', 1)->limit(6)->get();
+        $formations = Formation::all()->where('status', 1);
+        return view('client.formations',compact('services','formations'));
     }
 
     public function team(){
@@ -80,5 +86,11 @@ class ClientController extends Controller
         $project = Project::find($id);
 
         return view('client.single-projet',compact('services','project'));
+    }
+    public function single_formation($id){
+        $services = Service::where('status', 1)->limit(6)->get();
+        $formation = Formation::find($id);
+
+        return view('client.single-formation',compact('services','formation'));
     }
 }

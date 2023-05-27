@@ -28,9 +28,9 @@
                 <div class="col-xl-6 col-lg-8">
                     <!-- section title -->
                     <div class="title text-center">
-                        <h2>About Us</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa placeat voluptas tempore
-                            recusandae quasi nesciunt in, facilis animi. Sint, possimus?</p>
+                        <h2>A propos de nous</h2>
+                        <p>Kim Engineering est composé d'une équipe pleine de valeurs dans le travail 
+                            telles que l'étude, la conception, l'innovation et la cohésion.</p>
                         <div class="border"></div>
                     </div>
                     <!-- /section title -->
@@ -38,7 +38,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-6 mb-5 mb-lg-0">
-                    <img loading="lazy" src="frontend/images/about-us.jpg" class="img-fluid" alt="">
+                    <img loading="lazy" src="frontend/images/company/IMG_9947.jpg" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-6">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a tempor eros. Pellentesque elementum
@@ -51,13 +51,14 @@
                     <p>Curabitur felis nibh, imperdiet eu erat non, luctus cursus lectus. Donec maximus diam leo, sed
                         fringilla nisl
                         auctor eget. Donec dictum neque est, ac faucibus ex blandit a</p>
-                    <h4>Lorem ipsum dolor sit.</h4>
+                    <h4>Nos compétences</h4>
                     <ul class="feature-list">
-                        <li> <i class="tf-ion-android-checkmark-circle"></i> Web Development</li>
-                        <li> <i class="tf-ion-android-checkmark-circle"></i> Application Development</li>
-                        <li> <i class="tf-ion-android-checkmark-circle"></i> Website Design</li>
-                        <li> <i class="tf-ion-android-checkmark-circle"></i> UI/UX Design</li>
-                        <li> <i class="tf-ion-android-checkmark-circle"></i> SEO Service</li>
+                        <li> <i class="tf-ion-android-checkmark-circle"></i>Electronique industrielle</li>
+                        <li> <i class="tf-ion-android-checkmark-circle"></i>Electricité</li>
+                        <li> <i class="tf-ion-android-checkmark-circle"></i>Développement Web</li>
+                        <li> <i class="tf-ion-android-checkmark-circle"></i>Internet des objets</li>
+                        <li> <i class="tf-ion-android-checkmark-circle"></i>Robotique</li>
+                        <li> <i class="tf-ion-android-checkmark-circle"></i>Domotique</li>
                     </ul>
                     <a href="{{url('/services_us')}}" class="btn btn-main mt-20">En savoir plus</a>
                 </div>
@@ -72,7 +73,7 @@
                 <!-- section title -->
                 <div class="col-xl-6 col-lg-8">
                     <div class="title text-center ">
-                        <h2>Our Team</h2>
+                        <h2>Notre Equipe</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque quasi tempora obcaecati,
                             quis
                             similique quos.</p>

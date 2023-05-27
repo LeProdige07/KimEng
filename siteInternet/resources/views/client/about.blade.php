@@ -90,12 +90,8 @@
             <div class="row justify-content-center">
                 <div class="col-xl-6 col-lg-8">
                     <div class="title text-center">
-                        <h2>Sneak Peak Gallery</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore numquam esse vitae recusandae
-                            qui
-                            aspernatur, blanditiis, laboriosam dignissimos dolore facere provident ex? Porro, praesentium
-                            consectetur
-                            tempore. Nulla, error eius dolorem.</p>
+                        <h2>Notre Galerie</h2>
+                        <p>Vous pouvez voir les activités de Kim Engineering à travers ces images.</p>
                         <div class="border"></div>
                     </div>
                 </div>
@@ -120,7 +116,7 @@
                 <!-- section title -->
                 <div class="col-xl-6 col-lg-8">
                     <div class="title text-center ">
-                        <h2>Our Team</h2>
+                        <h2>Notre Equipe</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque quasi tempora obcaecati,
                             quis
                             similique quos.</p>

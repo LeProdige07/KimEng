@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Kim Engineering | # | @yield('title')</title>
+    <title>Kim Engineering | Back-Office | @yield('title')</title>
     <link rel="icon" type="image/png" href="{{ asset('front-end/images/logo01.png') }}">
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet"

@@ -1,6 +1,6 @@
 @extends('admin_layout.admin')
 @section('title')
-    Projets
+Formations
 @endsection
 @section('style')
     <!-- DataTables -->

@@ -29,8 +29,9 @@
                         <li><a href="{{url('/about')}}">A propos de nous</a></li>
                         <li><a href="{{url('/services_us')}}">Nos services</a></li>
                         <li><a href="{{url('/projets_us')}}">Nos projets</a></li>
+                        <li><a href="{{url('/formations_us')}}">Nos formations</a></li>
                         <li><a href="{{url('/team')}}">Equipe</a></li>
-                        <li><a href="{{url('/logette')}}">Logette</a></li>
+                        <li><a href="{{url('/logette')}}">Logette Intelligente</a></li>
                         <li><a href="{{url('/news')}}">News</a></li>
                     </ul>
                 </div>

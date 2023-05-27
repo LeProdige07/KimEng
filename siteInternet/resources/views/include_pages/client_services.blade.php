@@ -15,7 +15,7 @@
         <div class="row">
 
             <div class="col-md-4 text-center d-none d-md-block">
-                <img loading="lazy" src="frontend/images/IMG_5602.jpg" class="img-fluid inline-block" alt="">
+                <img loading="lazy" src="frontend/images/team/IMG_5602.jpg" class="img-fluid inline-block" alt="">
             </div>
             <div class="col-md-8">
                 <div class="row text-center">

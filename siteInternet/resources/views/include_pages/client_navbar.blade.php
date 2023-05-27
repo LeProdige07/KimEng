@@ -25,7 +25,10 @@
                         <a class="nav-link" href="{{url('/services_us')}}">Services</a>
                     </li>
                     <li class="nav-item {{ request()->is('projets_us') ? 'active' : '' }}">
-                        <a class="nav-link" href="{{url('/projets_us')}}">Nos projets</a>
+                        <a class="nav-link" href="{{url('/projets_us')}}">Projets</a>
+                    </li>
+                    <li class="nav-item {{ request()->is('formations_us') ? 'active' : '' }}">
+                        <a class="nav-link" href="{{url('/formations_us')}}">Formations</a>
                     </li>
                     <li class="nav-item {{ request()->is('team') ? 'active' : '' }}">
                         <a class="nav-link" href="{{url('/team')}}">Equipe</a>

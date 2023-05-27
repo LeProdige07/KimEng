@@ -324,7 +324,7 @@
             {{ request()->is('galeries') ? 'active' : '' }}">
                         <i class="nav-icon fas fa-folder"></i>
                         <p>
-                            Galery
+                            Galerie
                             <i class="fas fa-angle-left right"></i>
                         </p>
                     </a>
@@ -333,7 +333,7 @@
                                 <a href="{{ route('galeries.index') }}"
                                     class="nav-link {{ request()->is('galeries') ? 'active' : '' }}">
                                     <i class="far fa-file nav-icon"></i>
-                                    <p>Galery</p>
+                                    <p>Galerie</p>
                                 </a>
                             </li>
                         </ul>

@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   ================================================== -->
   <meta charset="utf-8">
-  <title>Kim Engineering | </title>
+  <title>Kim Engineering | Est une entreprise qui oeuvre dans la conception électronique, Internet des objets,le Web, la domotique, Robotique, Installation électrique des batiments et installation Photovoltaique. | @yield('title')</title>
 
   <!-- Mobile Specific Metas
   ================================================== -->

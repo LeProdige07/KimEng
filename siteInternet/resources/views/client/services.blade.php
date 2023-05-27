@@ -77,7 +77,7 @@
             <div class="row justify-content-between">
                 <div class="col-md-5">
                     <div class="team-skills-content">
-                        <h2 class="mb-3">Simple To Start</h2>
+                        <h2 class="mb-3">Travaillons en toute simplicité</h2>
                         <p>Vestibulum nisl tortor, consectetur quis imperdiet bium, letcu. Sedndime ntumiaculis ex, in
                             faucibus lorem accumsan non. Donec mattis tin unt metuorbi sed tort Igor aman luctus dignissim.
                             Vestibulum nisl tortor, consectetur quis imperdiet bium, letcu. Sedndime ntumiaculis ex, in
@@ -89,30 +89,44 @@
                     <div class="progress-block">
                         <ul>
                             <li class="mb-3">
-                                <span>Photoshop</span>
+                                <span>Electronique industrielle</span>
                                 <div class="progress">
                                     <div class="progress-bar" style="width: 90%;">
                                     </div>
                                 </div>
                             </li>
                             <li class="mb-3">
-                                <span>Web Application</span>
+                                <span>Electricité</span>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width: 90%;">
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="mb-3">
+                                <span>Développement Web</span>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width: 92%;">
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="mb-3">
+                                <span>Internet des objets</span>
                                 <div class="progress">
                                     <div class="progress-bar" style="width: 85%;">
                                     </div>
                                 </div>
                             </li>
                             <li class="mb-3">
-                                <span>Andriod Application</span>
+                                <span>Robotique</span>
                                 <div class="progress">
-                                    <div class="progress-bar" style="width: 92%;">
+                                    <div class="progress-bar" style="width: 90%;">
                                     </div>
                                 </div>
                             </li>
-                            <li>
-                                <span>IOS Development</span>
+                            <li class="mb-3">
+                                <span>Domotique</span>
                                 <div class="progress">
-                                    <div class="progress-bar" style="width: 78%;">
+                                    <div class="progress-bar" style="width: 95%;">
                                     </div>
                                 </div>
                             </li>
@@ -127,25 +141,24 @@
                         @foreach ($clientsatisfaits as $clientsatisfait)
                             <img loading="lazy"
                                 src="{{ asset("storage/clientsatisfait_images/$clientsatisfait->logo_client ") }}"
-                                alt="">
+                                alt="Client logo">
                         @endforeach
                     </div>
                 </div>
             </div>
         </div> <!-- End container -->
     </section> <!-- End section -->
-    <!--
-            Start Counter Section
-            ==================================== -->
+    <!--Start Counter Section ==================================== -->
     <section class="counter-wrapper section-sm">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-6 col-lg-8 text-center">
                     <div class="title">
-                        <h2>Award-Winning Agency</h2>
-                        <p>Vestibulum nisl tortor, consectetur quis imperdiet bibendum, laoreet sed arcu. Sed condimentum
-                            iaculis ex, in faucibus lorem accumsan non. Donec mattis tincidunt metus. Morbi sed tortor a
-                            risus luctus dignissim.</p>
+                        <h2>Nos valeurs</h2>
+                        <p>Nos réalisations, projet après projet, font de nous une des meilleures entreprises en Nouvelle Technologie.
+                            Dans notre travail, nous cultivons des valeurs telles que l'étude, la conception, l'innovation, la cohésion
+                            et sommes fiers de vous satisfaire avec nos services. 
+                        </p>
                     </div>
                 </div>
             </div>
@@ -157,11 +170,11 @@
                         <div>
                             <span class="counter" data-count="150">0</span>
                         </div>
-                        <h3>Happy Clients</h3>
+                        <h3>Clients Satisfaits</h3>
                     </div>
                 </div>
                 <!-- end first count item -->
-
+    
                 <!-- second count item -->
                 <div class="col-md-3 col-sm-6 col-xs-6 text-center ">
                     <div class="counters-item">
@@ -169,11 +182,11 @@
                         <div>
                             <span class="counter" data-count="130">0</span>
                         </div>
-                        <h3>Projects completed</h3>
+                        <h3>Projets Réalisés</h3>
                     </div>
                 </div>
                 <!-- end second count item -->
-
+    
                 <!-- third count item -->
                 <div class="col-md-3 col-sm-6 col-xs-6 text-center ">
                     <div class="counters-item">
@@ -181,12 +194,12 @@
                         <div>
                             <span class="counter" data-count="99">0</span>
                         </div>
-                        <h3>Positive feedback</h3>
-
+                        <h3>Collaborations</h3>
+    
                     </div>
                 </div>
                 <!-- end third count item -->
-
+    
                 <!-- fourth count item -->
                 <div class="col-md-3 col-sm-6 col-xs-6 text-center ">
                     <div class="counters-item kill-border">
@@ -194,7 +207,7 @@
                         <div>
                             <span class="counter" data-count="250">0</span>
                         </div>
-                        <h3>Cups of Coffee</h3>
+                        <h3>Formations</h3>
                     </div>
                 </div>
                 <!-- end fourth count item -->

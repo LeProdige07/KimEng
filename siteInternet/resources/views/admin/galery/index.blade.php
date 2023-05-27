@@ -31,7 +31,7 @@
                     <br><br>
                     <div class="card card-primary">
                         <div class="card-header">
-                            <h4 class="card-title">Galerie</h4>
+                            <h4 class="card-title">Nos Images</h4>
                         </div>
                         @if (Session::has('status'))
                             <div class="alert alert-success">

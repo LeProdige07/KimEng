@@ -378,7 +378,7 @@ a:focus, a:hover {
 }
 
 .single-page-header {
-  background-image: url("../images/about/about-header.jpg");
+  background-image: url("frontend/images/about-header.jpg");
   background-size: cover;
   padding: 140px 0 70px;
   text-align: center;
@@ -1006,7 +1006,7 @@ a:focus, a:hover {
 .pricing-table {
   padding: 100px 0;
   padding-bottom: 70px;
-  background: url("../images/pricing-bg.jpg");
+  background: url("frontend/images/logette-bg.jpg");
   background-size: cover;
   background-position: center;
   position: relative;
