@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Galery;
 use Illuminate\Http\Request;
 
 class GaleryController extends Controller
@@ -11,7 +12,8 @@ class GaleryController extends Controller
      */
     public function index()
     {
-        //
+        $galeries = Galery::all();
+        return view('admin.galery.index',compact('galeries'));
     }
 
     /**
@@ -27,7 +29,32 @@ class GaleryController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate($request, [
+            'galery_image' => 'image|nullable|max:5999'
+        ]);
+
+        if ($request->hasFile('galery_image')) {
+            //nom de l'image avec extension
+            $fileNameWithExt = $request->file('galery_image')->getClientOriginalName();
+            //nom  du fichier
+            $filename = pathinfo($fileNameWithExt, PATHINFO_FILENAME);
+            //extension
+            $ext = $request->file('galery_image')->getClientOriginalExtension();
+            //nom de l'image to store
+            $fileNameToStrore = $filename . '_' . time() . '.' . $ext;
+            //upload image et creation du dossier de stockage
+            $path = $request->file('galery_image')->storeAs('public/galery_images', $fileNameToStrore);
+        } else {
+            $fileNameToStrore = 'noimage.jpg';
+        }
+
+
+        $galery = new Galery();
+        $galery->image = $fileNameToStrore;
+        $galery->status = 1;
+
+        $galery->save();
+        return back()->with('status', 'L\'image a été enregistrée avec succès !!');
     }
 
     /**
@@ -59,6 +86,7 @@ class GaleryController extends Controller
      */
     public function destroy(string $id)
     {
-        //
+        $galery = Galery::find($id)->delete();
+        return back()->with('status','Image supprimée avec succès');
     }
 }

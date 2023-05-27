@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Galery;
 use App\Models\ClientSatisfait;
 use App\Models\Nouvelle;
 use App\Models\Personnel;
@@ -22,10 +23,10 @@ class ClientController extends Controller
     }
 
     public function about(){
-
+        $personnels = Personnel::all()->where('status', 1);
         $services = Service::where('status', 1)->limit(6)->get();
-
-        return view('client.about', compact('services'));
+        $galeries = Galery::all();
+        return view('client.about', compact('services','personnels','galeries'));
     }
 
     public function services_us(){

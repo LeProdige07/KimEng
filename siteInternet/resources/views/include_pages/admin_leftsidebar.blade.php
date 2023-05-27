@@ -316,6 +316,29 @@
                         </ul>
                 </li>
                 @endpermission
+                @permission('Galery', 'read')
+                <li class="nav-item has-treeview
+        {{ request()->is('galeries') ? 'menu-open' : '' }}
+        ">
+                    <a href="#" class="nav-link
+            {{ request()->is('galeries') ? 'active' : '' }}">
+                        <i class="nav-icon fas fa-folder"></i>
+                        <p>
+                            Galery
+                            <i class="fas fa-angle-left right"></i>
+                        </p>
+                    </a>
+                        <ul class="nav nav-treeview">
+                            <li class="nav-item">
+                                <a href="{{ route('galeries.index') }}"
+                                    class="nav-link {{ request()->is('galeries') ? 'active' : '' }}">
+                                    <i class="far fa-file nav-icon"></i>
+                                    <p>Galery</p>
+                                </a>
+                            </li>
+                        </ul>
+                </li>
+                @endpermission
                 @permission('Clientsatisfait', 'read')
                 <li
                     class="nav-item has-treeview {{ request()->is('clientsatisfaits') ? 'menu-open' : '' }}

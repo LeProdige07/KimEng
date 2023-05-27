@@ -36,7 +36,7 @@
                                             <th>Description</th>
                                             <th>Image1</th>
                                             <th>Image2</th>
-                                            <th>Service</th>
+                                            <th>Image3</th>
                                             {{-- <th>Vues</th> --}}
                                             <th>Actions</th>
                                         </tr>
@@ -93,7 +93,7 @@
                                             <th>Description</th>
                                             <th>Image1</th>
                                             <th>Image2</th>
-                                            <th>Service</th>
+                                            <th>Image3</th>
                                             {{-- <th>Vues</th> --}}
                                             <th>Actions</th>
                                         </tr>
