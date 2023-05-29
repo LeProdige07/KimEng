@@ -33,6 +33,7 @@
                         <li><a href="{{url('/team')}}">Equipe</a></li>
                         <li><a href="{{url('/logette')}}">Logette Intelligente</a></li>
                         <li><a href="{{url('/news')}}">News</a></li>
+                        <li><a href="{{url('/contact')}}">Contact</a></li>
                     </ul>
                 </div>
                 <!-- End of .col-sm-3 -->

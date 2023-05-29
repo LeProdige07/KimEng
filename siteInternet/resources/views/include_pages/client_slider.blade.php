@@ -5,9 +5,9 @@
                 <div class="col-md-12 text-center">
                     <h1 data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1">Kim
                         Engineering</h1>
-                    <p data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".5">Est une entreprise qui
-                        oeuvre dans l'intelligence artificielle, <br>
-                        la domotique, <br> la robotique et l'IOT.</p>
+                    <p data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".5">Est une entreprise qui oeuvre dans la conception électronique,
+                        Internet des objets,<br>  le développement Web, la domotique, Robotique,<br> Installation électrique des batiments 
+                        <br>et installation Photovoltaique.</p>
                     <a data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".8" class="btn btn-main"
                         href="{{ url('/services_us') }}">Voir plus</a>
                 </div>

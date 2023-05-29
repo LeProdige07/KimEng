@@ -3,10 +3,12 @@
         <!-- main nav -->
         <nav class="navbar navbar-expand-lg navbar-light px-0">
             <!-- logo -->
-            <a class="navbar-brand logo" href="{{ url('/') }}">
-                {{-- <img loading="lazy" class="logo-default" src="{{asset('frontend/images/logo.png')}}" alt="logo" />
-                <img loading="lazy" class="logo-white" src="{{asset('frontend/images/logo-white.png')}}" alt="logo" /> --}}
-            </a>
+            <div class="logo">
+                <a class="d-block" href="{{ url('/') }}">
+                    <img loading="lazy" class="logo-default" style="height : 100px; width : 100px" src="{{asset('frontend/images/logos/logo.jpg')}}" alt="logo" />
+                    <img loading="lazy" class="logo-white" style="height : 100px; width : 100px" src="{{asset('frontend/images/logos/logo2.jpg')}}" alt="logo" />
+                </a>
+            </div>
             <!-- /logo -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
                 aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">

@@ -5,21 +5,14 @@ Projets | {{$project->project_name}}
 @section('content')
 
 @include('include_pages.client_navbar')
+@section('breadcrumb_title')
+{{$project->project_name}}
+@endsection
+@section('breadcrumb_contenu')
+<li class="breadcrumb-item"><a href="{{url('/projets_us')}}" class="text-white">Projets</a></li>
+@endsection
+@include('include_pages.client_breadcrumb')
 
-<section class="single-page-header">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h2>Projet : {{$project->project_name}}</h2>
-                <ol class="breadcrumb header-bradcrumb justify-content-center">
-                    <li class="breadcrumb-item"><a href="index.html" class="text-white">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Blog Single</li>
-                </ol>
-            </div>
-        </div>
-    </div>
-</section>
-<br>
 <section class="blog-details section">
     <div class="container">
 

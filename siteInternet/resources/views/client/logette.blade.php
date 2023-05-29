@@ -4,20 +4,10 @@ Nos Logettes
 @endsection
 @section('content')
 @include('include_pages.client_navbar')
-<section class="single-page-header">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<h2>Logettes</h2>
-				<ol class="breadcrumb header-bradcrumb justify-content-center">
-					<li class="breadcrumb-item"><a href="index.html" class="text-white">Home</a></li>
-					<li class="breadcrumb-item active" aria-current="page">Logettes</li>
-				</ol>
-			</div>
-		</div>
-	</div>
-</section>
-
+@section('breadcrumb_title')
+Logettes
+@endsection
+@include('include_pages.client_breadcrumb')
 <section class="promo-video section-sm">
 	<div class="container">
 		<div class="row justify-content-center">

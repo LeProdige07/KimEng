@@ -4,21 +4,10 @@
 @endsection
 @section('content')
     @include('include_pages.client_navbar')
-
-    <section class="single-page-header">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2>A propos de nous</h2>
-                    <ol class="breadcrumb header-bradcrumb justify-content-center">
-                        <li class="breadcrumb-item"><a href="{{ url('/') }}" class="text-white">Home</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">A propos de nous</li>
-                    </ol>
-                </div>
-            </div>
-        </div>
-    </section>
-
+@section('breadcrumb_title')
+A propos de nous
+@endsection
+@include('include_pages.client_breadcrumb')
     <section class="about-shot-info section-sm">
         <div class="container">
             <div class="row">
