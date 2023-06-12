@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   ================================================== -->
   <meta charset="utf-8">
-  <title>Kim Engineering | Est une entreprise qui oeuvre dans la conception électronique, Internet des objets,le Web, la domotique, Robotique, Installation électrique des batiments et installation Photovoltaique. | @yield('title')</title>
+  <title>Kim Engineering | Est une entreprise qui oeuvre dans la conception électronique, Internet des objets,le Web, la domotique... | @yield('title')</title>
 
   <!-- Mobile Specific Metas
   ================================================== -->
@@ -16,12 +16,12 @@
   <meta name="generator" content="Themefisher Bingo HTML Template v1.0">
 
   <!-- Favicon -->
-  <link rel="shortcut icon" type="image/x-icon" href="{{asset('frontend/images/company/IMG_8311.jpg')}}" />
+  <link rel="shortcut icon" type="image/x-icon" href="{{asset('frontend/images/logos/LOGO-KIM-BLACK-PNG.png')}}" />
 
   <!-- CSS
   ================================================== -->
   <!-- Themefisher Icon font -->
-  <link rel="stylesheet" href="^{{asset('frontend/plugins/themefisher-font/style.css')}}">
+  <link rel="stylesheet" href="{{asset('frontend/plugins/themefisher-font/style.css')}}">
   <!-- bootstrap.min css -->
   <link rel="stylesheet" href="{{asset('frontend/plugins/bootstrap/bootstrap.min.css')}}">
   <!-- Lightbox.min css -->

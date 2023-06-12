@@ -19,8 +19,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <h1 data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".1">Innovation et <br>
-                        Créativité</h1>
+                    <h1 data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".1">Contruire l'avenir avec la nouvelle technologie</h1>
                     <p data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".5">Nous résolvons les
                         problèmes
                         de la société avec la nouvelle technologie.

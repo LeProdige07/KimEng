@@ -76,7 +76,7 @@
                                 <li class="widget-post-list-item">
                                     <div class="widget-post-image">
                                         <a href="single-post.html">
-                                            <img loading="lazy" src="{{ asset('frontend/images/blog/post-1.jpg') }}"
+                                            <img loading="lazy" src="{{ asset('storage/nouvelle_images/' . $nouvelle->nouvelle_image) }}"
                                                 alt="post-img">
                                         </a>
                                     </div>
