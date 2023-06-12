@@ -46,7 +46,10 @@ class NouvelleController extends Controller
             'description' => 'required',
             'nouvelle_image' => 'image|nullable|max:5999',
             'sujet' => 'required',
-
+            'facebook' => 'required',
+            'twitter' => 'required',
+            'instagram' => 'required',
+            'linkedin' => 'required',
         ]);
 
         if ($request->hasFile('nouvelle_image')) {
@@ -69,6 +72,10 @@ class NouvelleController extends Controller
         $nouvelle->nouvelle_titre = $request->input('titre');
         $nouvelle->nouvelle_contenu = $request->input('description');
         $nouvelle->sujet = $request->input('sujet');
+        $nouvelle->facebook = $request->input('facebook');
+        $nouvelle->twitter = $request->input('twitter');
+        $nouvelle->instagram = $request->input('instagram');
+        $nouvelle->linkedin = $request->input('linkedin');
         $nouvelle->nouvelle_image = $fileNameToStrore;
         $nouvelle->status = 1;
 
@@ -116,12 +123,20 @@ class NouvelleController extends Controller
             'nouvelle_contenu' => 'required',
             'nouvelle_image' => 'image|nullable|max:5999',
             'sujet' => 'required',
+            'facebook' => 'required',
+            'twitter' => 'required',
+            'instagram' => 'required',
+            'linkedin' => 'required',
         ]);
 
         $nouvelle = Nouvelle::find($id);
         $nouvelle->nouvelle_titre = $request->input('nouvelle_titre');
         $nouvelle->nouvelle_contenu = $request->input('nouvelle_contenu');
         $nouvelle->sujet = $request->input('sujet');
+        $nouvelle->facebook = $request->input('facebook');
+        $nouvelle->twitter = $request->input('twitter');
+        $nouvelle->instagram = $request->input('instagram');
+        $nouvelle->linkedin = $request->input('linkedin');
         $nouvelle->status = 1;
 
         if ($request->hasFile('nouvelle_image')) {

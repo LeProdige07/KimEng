@@ -67,6 +67,30 @@
                                     </div>
                                 </div>
                                 <div class="col-xs-12 col-sm-12 col-md-12">
+                                    <div class="form-group">
+                                        <strong>{{ __('Facebook') }}:</strong>
+                                        {!! Form::text('facebook', null, ['placeholder' => 'Lien Facebook de la nouvelle', 'class' => 'form-control']) !!}
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-12">
+                                    <div class="form-group">
+                                        <strong>{{ __('Twitter') }}:</strong>
+                                        {!! Form::text('twitter', null, ['placeholder' => 'Lien Twitter de la nouvelle', 'class' => 'form-control']) !!}
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-12">
+                                    <div class="form-group">
+                                        <strong>{{ __('Instagram') }}:</strong>
+                                        {!! Form::text('instagram', null, ['placeholder' => 'Lien Instagram de la nouvelle', 'class' => 'form-control']) !!}
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-12">
+                                    <div class="form-group">
+                                        <strong>{{ __('LinkedIn') }}:</strong>
+                                        {!! Form::text('linkedin', null, ['placeholder' => 'Lien LinkedIn de la nouvelle', 'class' => 'form-control']) !!}
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-12">
                                     {{ Form::label('', 'Image', [
                                         'for' => 'exampleInputFile',
                                     ]) }}

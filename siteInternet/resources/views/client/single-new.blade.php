@@ -31,22 +31,22 @@
                         <!-- post share -->
                         <ul class="post-content-share list-inline mb-5">
                             <li class="list-inline-item">
-                                <a href="#">
+                                <a href="{{ $nouvelle->twitter }}">
                                     <i class="tf-ion-social-twitter"></i>
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="#">
+                                <a href="{{ $nouvelle->linkedin }}">
                                     <i class="tf-ion-social-linkedin"></i>
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="#">
+                                <a href="{{ $nouvelle->facebook }}">
                                     <i class="tf-ion-social-facebook"></i>
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="#">
+                                <a href="{{ $nouvelle->instagram }}">
                                     <i class="tf-ion-social-instagram"></i>
                                 </a>
                             </li>
