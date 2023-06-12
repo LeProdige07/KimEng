@@ -67,6 +67,30 @@ Modification du personnel
                                 'onkeypress' => "return nameFunction(event);"]) !!}
         </div>
     </div>
+    <div class="col-xs-12 col-sm-12 col-md-12">
+      <div class="form-group">
+          <strong>{{ __('Facebook') }}:</strong>
+          {!! Form::text('facebook', null, ['placeholder' => 'Facebook', 'class' => 'form-control']) !!}
+      </div>
+  </div>
+  <div class="col-xs-12 col-sm-12 col-md-12">
+    <div class="form-group">
+        <strong>{{ __('Twitter') }}:</strong>
+        {!! Form::text('twitter', null, ['placeholder' => 'Twitter', 'class' => 'form-control']) !!}
+    </div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-12">
+  <div class="form-group">
+      <strong>{{ __('Instagram') }}:</strong>
+      {!! Form::text('instagram', null, ['placeholder' => 'Instagram', 'class' => 'form-control']) !!}
+  </div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-12">
+  <div class="form-group">
+      <strong>{{ __('LinkedIn') }}:</strong>
+      {!! Form::text('google', null, ['placeholder' => 'LinkedIn', 'class' => 'form-control']) !!}
+  </div>
+</div>
         <div class="col-xs-12 col-sm-12 col-md-12">
         {{ Form::label('', 'Image', [
             'for' => 'exampleInputFile',

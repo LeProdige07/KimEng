@@ -90,7 +90,7 @@ Equipe
                                     <li><a href="{{ $personnel->twitter }}"><i class="tf-ion-social-twitter"></i></a>
                                     </li>
                                     <li><a href="{{ $personnel->google }}"><i
-                                                class="tf-ion-social-google-outline"></i></a></li>
+                                                class="tf-ion-social-linkedin-outline"></i></a></li>
                                     <li><a href="{{ $personnel->instagram }}"><i
                                                 class="tf-ion-social-instagram"></i></a>
                                     </li>

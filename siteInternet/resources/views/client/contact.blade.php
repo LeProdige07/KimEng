@@ -28,7 +28,7 @@ Contactez-nous
         <div class="row">
             <!-- Contact Details -->
             <div class="contact-details col-md-6 ">
-                <h3 class="mb-3">Contact Details</h3>
+                <h3 class="mb-3">Kim Engineering</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, vero, provident, eum eligendi
                     blanditiis ex
                     explicabo vitae nostrum facilis asperiores dolorem illo officiis ratione vel fugiat dicta laboriosam
@@ -51,10 +51,10 @@ Contactez-nous
                 <!-- Footer Social Links -->
                 <div class="social-icon">
                     <ul>
-                        <li><a href="#"><i class="tf-ion-social-facebook"></i></a></li>
-                        <li><a href="#"><i class="tf-ion-social-twitter"></i></a></li>
-                        <li><a href="#"><i class="tf-ion-social-dribbble-outline"></i></a></li>
-                        <li><a href="#"><i class="tf-ion-social-linkedin-outline"></i></a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=100082984827940&mibextid=LQQJ4d"><i class="tf-ion-social-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/engineering_kim?t=Ahg4HqWWEsDcU75v85SEIQ&s=03"><i class="tf-ion-social-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/kim_engineering/?igshid=OGQ5ZDc2ODk2ZA=="><i class="tf-ion-social-instagram-outline"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/kim-engineering-b6b45a264"><i class="tf-ion-social-linkedin-outline"></i></a></li>
                     </ul>
                 </div>
                 <!--/. End Footer Social Links -->

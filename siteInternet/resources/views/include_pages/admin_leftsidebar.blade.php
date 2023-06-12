@@ -1,7 +1,7 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="{{ url('/') }}" class="brand-link">
-        <img src="{{ asset('front-end/images/logoValid4.jpeg') }}" alt="Kim Engineering Logo" class="brand-image img-circle elevation-3">
+        <img src="{{asset('frontend/images/logos/LOGO-KIM-WHITE-PNG.png')}}" alt="Kim Engineering Logo" class="brand-image img-circle elevation-3">
         <span class="brand-text font-weight-light">Kim Engineering</span>
     </a>
 
@@ -194,7 +194,7 @@
                 {{ request()->is('personnels') ? 'active' : '' }} {{ request()->is('personnels/create') ? 'active' : '' }}">
                         <i class="nav-icon fas fa-folder"></i>
                         <p>
-                            Personnels
+                            Personnel
                             <i class="fas fa-angle-left right"></i>
                         </p>
                     </a>
@@ -203,7 +203,7 @@
                                 <a href="{{ route('personnels.index') }}"
                                     class="nav-link {{ request()->is('personnels') ? 'active' : '' }}">
                                     <i class="far fa-file nav-icon"></i>
-                                    <p>Personnels</p>
+                                    <p>Personnel</p>
                                 </a>
                             </li>
                         </ul>
@@ -213,7 +213,7 @@
                                 <a href="{{ route('personnels.create') }}"
                                     class="nav-link {{ request()->is('personnels/create') ? 'active' : '' }}">
                                     <i class="far fa-file nav-icon"></i>
-                                    <p>Créer un personnel</p>
+                                    <p>Créer un membre</p>
                                 </a>
                             </li>
                         </ul>

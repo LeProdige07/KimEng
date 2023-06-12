@@ -43,10 +43,10 @@
                         <li>
                             <h3>Suivez-nous sur les réseaux</h3>
                         </li>
-                        <li><a href="https://www.facebook.com/themefisher/">Facebook</a></li>
-                        <li><a href="https://www.twitter.com/themefisher/">Twitter</a></li>
-                        <li><a href="https://www.youtube.com/channel/UCx9qVW8VF0LmTi4OF2F8YdA">Youtube</a></li>
-                        <li><a href="https://www.github.com/themefisher/">Instagram</a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=100082984827940&mibextid=LQQJ4d">Facebook</a></li>
+                        <li><a href="https://twitter.com/engineering_kim?t=Ahg4HqWWEsDcU75v85SEIQ&s=03">Twitter</a></li>
+                        <li><a href="https://www.linkedin.com/in/kim-engineering-b6b45a264">LinkedIn</a></li>
+                        <li><a href="https://www.instagram.com/kim_engineering/?igshid=OGQ5ZDc2ODk2ZA==">Instagram</a></li>
                     </ul>
                 </div>
                 <!-- End of .col-sm-3 -->

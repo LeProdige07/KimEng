@@ -45,6 +45,10 @@ class PersonnelController extends Controller
             'names' => 'required',
             'poste' => 'required',
             'description' => 'required',
+            'facebook' => 'required',
+            'twitter' => 'required',
+            'instagram' => 'required',
+            'google' => 'required',
             'personnel_image' => 'image|nullable|max:5999'
         ]);
 
@@ -70,13 +74,13 @@ class PersonnelController extends Controller
         $personnel->description = $request->input('description');
         $personnel->image = $fileNameToStrore;
         $personnel->status = 1;
-        $personnel->facebook = '#';
-        $personnel->twitter = '#';
-        $personnel->google = '#';
-        $personnel->instagram = '#';
+        $personnel->facebook = $request->input('facebook');
+        $personnel->twitter = $request->input('twitter');
+        $personnel->google = $request->input('google');
+        $personnel->instagram = $request->input('instagram');
 
         $personnel->save();
-        return back()->with('status', 'La personne a été enregistrée avec succès !!');
+        return back()->with('status', 'Le membre a été enregistré avec succès !!');
     }
 
     /**
@@ -118,6 +122,10 @@ class PersonnelController extends Controller
             'names' => 'required',
             'poste' => 'required',
             'description' => 'required',
+            'facebook' => 'required',
+            'twitter' => 'required',
+            'instagram' => 'required',
+            'google' => 'required',
             'personnel_image' => 'image|nullable|max:5999'
         ]);
 
@@ -125,6 +133,10 @@ class PersonnelController extends Controller
         $personnel->names = $request->input('names');
         $personnel->poste = $request->input('poste');
         $personnel->description = $request->input('description');
+        $personnel->facebook = $request->input('facebook');
+        $personnel->twitter = $request->input('twitter');
+        $personnel->google = $request->input('google');
+        $personnel->instagram = $request->input('instagram');
         
         if ($request->hasFile('personnel_image')) {
             //nom de l'image avec extension
@@ -147,7 +159,7 @@ class PersonnelController extends Controller
 
         $personnel->update();
 
-        return redirect('/personnels')->with('status', 'La personne a été modifiée avec succès !!');
+        return redirect('/personnels')->with('status', 'Le membre a été modifié avec succès !!');
     }
 
     /**
@@ -167,7 +179,7 @@ class PersonnelController extends Controller
 
         $personnel->delete();
 
-        return back()->with('status', 'La personne a été supprimée avec succès !!');
+        return back()->with('status', 'Le membre a été supprimé avec succès !!');
     }
 
     public function activer_personnel($id)
