@@ -1,4 +1,4 @@
-<section class="service-2 section">
+<section id="services" class="service-2 section">
     <div class="container">
         <div class="row justify-content-center">
 
@@ -15,7 +15,7 @@
         <div class="row">
 
             <div class="col-md-4 text-center d-none d-md-block">
-                <img loading="lazy" src="frontend/images/team/IMG_5602.jpg" class="img-fluid inline-block" alt="">
+                <img loading="lazy" src="frontend/images/team/_K8A7893.jpg" class="img-fluid inline-block" alt="">
             </div>
             <div class="col-md-8">
                 <div class="row text-center">

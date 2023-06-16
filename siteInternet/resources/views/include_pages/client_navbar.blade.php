@@ -21,7 +21,7 @@
                         <a class="nav-link" href="{{ url('/') }}">Accueil</a>
                     </li>
                     <li class="nav-item {{ request()->is('about') ? 'active' : '' }}">
-                        <a class="nav-link" href="{{ url('/about') }}">About Us</a>
+                        <a class="nav-link" href="{{ url('/about') }}">A propos</a>
                     </li>
                     <li class="nav-item {{ request()->is('services_us') ? 'active' : '' }}">
                         <a class="nav-link" href="{{url('/services_us')}}">Services</a>

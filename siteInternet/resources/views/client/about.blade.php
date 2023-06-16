@@ -23,7 +23,7 @@ A propos de nous
                     </p>
                 </div>
                 <div class="col-lg-6 mt-4 mt-lg-0">
-                    <img loading="lazy" class="img-fluid" src="frontend/images/team/IMG_2085.jpg" alt="">
+                    <img loading="lazy" class="img-fluid" src="frontend/images/team/_K8A7653.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -43,7 +43,7 @@ A propos de nous
                         apporter les solutions
                         technologiques adaptées à ces problèmes.
                     </p>
-                    <img loading="lazy" src="frontend/images/company/IMG_9932.jpg" alt="" class="img-fluid mt-30">
+                    <img loading="lazy" src="frontend/images/team/IMG_9940.jpg" alt="" class="img-fluid mt-30">
                 </div>
                 <div class="col-md-6 mt-5 mt-md-0">
                     <h3>Notre Vision</h3>
@@ -54,7 +54,7 @@ A propos de nous
                     <p>Le numérique est actuellement une des portes vers le développement durable.
                         Notre bien aimé pays doit s'adapter et évoluer dans le numérique. Telle est notre vision.
                     </p>
-                    <img loading="lazy" src="frontend/images/team/IMG_9939.jpg" alt="" class="img-fluid mt-30">
+                    <img loading="lazy" src="frontend/images/team/_K8A7686.jpg" alt="" class="img-fluid mt-30">
                 </div>
             </div>
         </div>
