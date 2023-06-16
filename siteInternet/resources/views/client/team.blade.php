@@ -17,7 +17,7 @@ Equipe
             <div class="col-xl-6 col-lg-8">
                 <!-- section title -->
                 <div class="title text-center">
-                    <h2>A propos de nous</h2>
+                    <h2>L'équipe</h2>
                     <p>Kim Engineering est composé d'une équipe pleine de valeurs dans le travail
                         telles que l'étude, la conception, l'innovation et la cohésion.</p>
                     <div class="border"></div>
@@ -27,7 +27,7 @@ Equipe
         </div>
         <div class="row">
             <div class="col-lg-6 mb-5 mb-lg-0">
-                <img loading="lazy" src="frontend/images/company/IMG_9947.jpg" class="img-fluid" alt="">
+                <img loading="lazy" src="frontend/images/team/_K8A7678.jpg" class="img-fluid" alt="team image">
             </div>
             <div class="col-lg-6">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a tempor eros. Pellentesque elementum
@@ -62,7 +62,7 @@ Equipe
             <!-- section title -->
             <div class="col-xl-6 col-lg-8">
                 <div class="title text-center ">
-                    <h2>Notre Equipe</h2>
+                    <h2>Kim Engineering</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque quasi tempora obcaecati,
                         quis
                         similique quos.</p>

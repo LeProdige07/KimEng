@@ -55,7 +55,7 @@
         </div> <!-- end container -->
     </div>
     <div class="footer-bottom">
-        <h5>&copy;Copyright {{ date('Y') }}. All rights reserved.</h5>
-        <h6>Design and Developed by <a href="{{url('/')}}">Kim Engineering</a></h6>
+        <h5>&copy;Copyright {{ date('Y') }}. Tous Droits Reservés .</h5>
+        <h6>Conçu and Developpé by <a href="{{url('/')}}">Kim Engineering</a></h6>
     </div>
 </footer> <!-- end footer -->

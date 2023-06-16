@@ -70,7 +70,7 @@
                         faucibus lorem accumsan non. Donec mattis tin unt metuorbi sed tort Igor aman luctus dignissim.
                         Vestibulum nisl tortor, consectetur quis imperdiet bium, letcu. Sedndime ntumiaculis ex, in
                         faucibus lorem accumsan non.</p>
-                    <a href="contact.html" class="btn btn-main mt-20">Contact Us</a>
+                    <a href="contact.html" class="btn btn-main mt-20">Contactez-nous</a>
                 </div>
             </div>
             <div class="col-md-6">
@@ -93,14 +93,14 @@
                         <li class="mb-3">
                             <span>Développement Web</span>
                             <div class="progress">
-                                <div class="progress-bar" style="width: 92%;">
+                                <div class="progress-bar" style="width: 95%;">
                                 </div>
                             </div>
                         </li>
                         <li class="mb-3">
                             <span>Internet des objets</span>
                             <div class="progress">
-                                <div class="progress-bar" style="width: 85%;">
+                                <div class="progress-bar" style="width: 95%;">
                                 </div>
                             </div>
                         </li>
@@ -114,7 +114,7 @@
                         <li class="mb-3">
                             <span>Domotique</span>
                             <div class="progress">
-                                <div class="progress-bar" style="width: 95%;">
+                                <div class="progress-bar" style="width: 90%;">
                                 </div>
                             </div>
                         </li>

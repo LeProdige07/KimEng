@@ -39,10 +39,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <h1 data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".1">NOUS SOMMES UNE STARTUP
+                    <h1 data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".1">NOUS SOMMES UNE ENTREPRISE
                         NUMERIQUE</h1>
-                    <p data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".5">Nous créons des solutions
-                        numériques et sommes passionnés de la nouvelle technologie.
+                    <p data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".5">Notre vision est de révolutionner la RDC et l'Afrique grâce aux nouvelles technologies.
                     </p>
                     <a data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".8" class="btn btn-main"
                         href="#about">Lire plus</a>

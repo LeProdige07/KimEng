@@ -16,7 +16,7 @@
 		<div class="row">
 
 			<div class="col-md-6 mb-4 mb-md-0">
-				<img loading="lazy" src="frontend/images/logos/logo2.jpg" class="img-fluid" alt="">
+				<img loading="lazy" src="frontend/images/logos/LOGO-KIM-SARL-BLACK.jpg" class="img-fluid" alt="">
 			</div>
 			<div class="col-md-6">
 				<ul class="checklist">

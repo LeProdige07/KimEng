@@ -51,7 +51,7 @@ A propos de nous
                         notre pays est de s'adapter ou de disparaitre.
                         C'est pourquoi nous nous donnons cette lourde charge de révolutionner la RDC avec les nouvelles
                         technologies.</p>
-                    <p>Le numérique est actuellement une des portes vers le développement durable.
+                    <p>Le numérique est actuellement l'une des portes vers le développement durable.
                         Notre bien aimé pays doit s'adapter et évoluer dans le numérique. Telle est notre vision.
                     </p>
                     <img loading="lazy" src="frontend/images/team/_K8A7686.jpg" alt="" class="img-fluid mt-30">
