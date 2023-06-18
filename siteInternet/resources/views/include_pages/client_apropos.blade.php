@@ -20,12 +20,12 @@
 			</div>
 			<div class="col-md-6">
 				<ul class="checklist">
+					<li>Nous effectuons des installations électriques selon les normes préétablies pour votre sécurité et celle de tous vos équipements.</li>
+					<li>Dans la Robotique, nous faisons la motorisation des vos portails pour vous faciliter l'accès dans vos parcelles et créons des robots capables d'effectuer des tâches à votre place.</li>
 					<li>Dans le Web, nous créons des Sites Internet à titre marketing ou publicitaire 
 						tant pour des entreprises que pour des individus.</li>
 					<li>Des applications Web pour la gestion de vos services et pour toutes autres fins.</li>
-					<li>Donec sed odio dui. Aenean eu leo quam. Pellentesque ornare sem laca quam venenatis vestibulum.</li>
-					<li>Etiam porta sem multipage evint landing magna mollis euismod a pharetra augue.</li>
-					<li>Aenean quam. Pellentesque ornare sem laca quam venenatis vestibulum.</li>
+					<li>Dans la domotique, nous faisons des installations des systèmes intelligents permettant d'économiser votre électricité.</li>
 				</ul>
 				<a href="{{url('/about')}}" class="btn btn-main mt-20">En savoir plus</a>
 			</div>

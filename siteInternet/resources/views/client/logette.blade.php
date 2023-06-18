@@ -1,150 +1,165 @@
 @extends('layouts.client')
 @section('title')
-Nos Logettes
+    Logette Intelligente
 @endsection
 @section('content')
-@include('include_pages.client_navbar')
+    @include('include_pages.client_navbar')
 @section('breadcrumb_title')
-Logettes
+    Logette Intelligente
 @endsection
 @include('include_pages.client_breadcrumb')
 <section class="promo-video section-sm">
-	<div class="container">
-		<div class="row justify-content-center">
-			<!-- section title -->
-			<div class="col-xl-6 col-lg-8">
-				<div class="title text-center">
-					<h2>Notre logette Intelligente</h2>
-					<p>Une logette qui gère automatiquemennt l'électricité d'un batiment, qui fonctionne en monophasé, biphasé
-						et triphasé; connectée à une application mobile qui permet la commande à distance de la logette et donne en temps réel
-						la température, l'humidité, les tensions de la logette et bien d'autres fonctionnalités.
-					</p>
-					<div class="border"></div>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<!-- /section title -->
-			<div class="col-md-8 mx-auto">
-				{{-- <iframe src="https://www.youtube.com/watch?v=DPBRGWUgQsA&list=RDfXl5dPuiJa0&index=6" width="100%" height="360" frameborder="0"
-					webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> --}}
-			</div>
-		</div>
-	</div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <!-- section title -->
+            <div class="col-xl-6 col-lg-8">
+                <div class="title text-center">
+                    <h2>Notre logette Intelligente</h2>
+                    <p>Une logette qui gère automatiquemennt l'électricité d'un batiment, qui fonctionne en monophasé,
+                        biphasé
+                        et triphasé; connectée à une application mobile qui permet la commande à distance de la logette
+                        et donne en temps réel
+                        la température, l'humidité, les tensions de la logette et bien d'autres fonctionnalités.
+                    </p>
+                    <div class="border"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 <!-- Start Pricing section
-		=========================================== -->
-<section class="pricing-table" id="pricing">
-	<div class="container">
-		<div class="row justify-content-center">
-			<!-- section title -->
-			<div class="col-xl-6 col-lg-8">
-				<div class="title title-white text-center ">
-					<h2>Notre meilleur tarif</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium soluta deserunt eaque, est, quia hic odit sed incidunt officiis quidem.</p>
-					<div class="border"></div>
-				</div>
-			</div>
-			<!-- /section title -->
-		</div>
-		<div class="row">
-			<!-- single pricing table -->
-			<div class="col-lg-4 col-md-6">
-				<div class="pricing-item">
+  =========================================== -->
+<section class="contact-us" id="contact">
+    <div class="container">
+        <div class="row justify-content-center">
+            <!-- section title -->
+            <div class="col-xl-6 col-lg-8">
+                <div class="title text-center">
+                    <h2>Précommandez la logette intelligente</h2>
+                    <p>A travers ce formulaire, nous recevons votre précommande pour notre logette intelligente qui sera
+                        bientôt sur le marché.</p>
+                    <div class="border"></div>
+                </div>
+            </div>
+            <!-- /section title -->
+        </div>
+        <div class="row">
+            <!-- Contact Form -->
+            <div class="contact-form col-md-6 ">
+                @if (Session::has('status'))
+                    <div class="alert alert-success">
+                        {{ Session::get('status') }}
+                    </div>
+                @endif
+                <form id="contact-form" method="post" role="form" action="{{ route('precommande') }}">
+                    {{ csrf_field() }}
+                    <div class="form-group mb-4">
+                        <input type="text" placeholder="Votre Nom" class="form-control" name="nom" id="nom"
+                            required>
+                        @if ($errors->has('nom'))
+                            <span class="text-danger">{{ $errors->first('nom') }}</span>
+                        @endif
+                    </div>
 
-					<!-- plan name & value -->
-					<div class="price-title">
-						<h3>Basic</h3>
-						<strong class="value">$19</strong>
-						<p>Perfect for single freelancers who work by themselves</p>
-					</div>
-					<!-- /plan name & value -->
+                    <div class="form-group mb-4">
+                        <input type="text" placeholder="Votre Post-nom" class="form-control" name="postnom"
+                            id="postnom" required>
+                        @if ($errors->has('postnom'))
+                            <span class="text-danger">{{ $errors->first('postnom') }}</span>
+                        @endif
+                    </div>
 
-					<!-- plan description -->
-					<ul>
-						<li><i class="tf-ion-ios-arrow-forward"></i> 1GB Disk Space</li>
-						<li><i class="tf-ion-ios-arrow-forward"></i> 10 Email Account</li>
-						<li><i class="tf-ion-ios-arrow-forward"></i> Script Installer</li>
-						<li><i class="tf-ion-ios-arrow-forward"></i> 1 GB Storage</li>
-						<li><i class="tf-ion-ios-arrow-forward"></i> 2 GB Bandwidth</li>
-						<li><i class="tf-ion-ios-arrow-forward"></i> 24/7 Tech Support</li>
-					</ul>
-					<!-- /plan description -->
+                    <div class="form-group mb-4">
+                        <input type="text" placeholder="Votre Prénom" class="form-control" name="prenom"
+                            id="prenom" required>
+                        @if ($errors->has('prenom'))
+                            <span class="text-danger">{{ $errors->first('prenom') }}</span>
+                        @endif
+                    </div>
 
-					<!-- signup button -->
-					<a class="btn btn-main" href="contact.html">Signup</a>
-					<!-- /signup button -->
+                    <div class="form-group mb-4">
+                        <input type="email" placeholder="Votre Email" class="form-control" name="email"
+                            id="email" required>
+                        @if ($errors->has('email'))
+                            <span class="text-danger">{{ $errors->first('email') }}</span>
+                        @endif
+                    </div>
 
-				</div>
-			</div>
-			<!-- end single pricing table -->
+                    <div class="form-group mb-4">
+                        <input type="text" placeholder="Votre Téléphone" class="form-control" name="tel"
+                            id="tel">
+                        @if ($errors->has('tel'))
+                            <span class="text-danger">{{ $errors->first('tel') }}</span>
+                        @endif
+                    </div>
 
-			<!-- single pricing table -->
-			<div class="col-lg-4 col-md-6  ">
-				<div class="pricing-item">
+                    <div class="form-group mb-4">
+                        <input type="text" placeholder="Votre Fontion" class="form-control" name="fonction"
+                            id="fonction" required>
+                        @if ($errors->has('fonction'))
+                            <span class="text-danger">{{ $errors->first('fonction') }}</span>
+                        @endif
+                    </div>
 
-					<!-- plan name & value -->
-					<div class="price-title">
-						<h3>Standard</h3>
-						<strong class="value">$39</strong>
-						<p>Suitable for small businesses with up to 5 employees</p>
-					</div>
-					<!-- /plan name & value -->
+                    <div class="form-group mb-4">
+                        <select name="commune" id="commune" class="form-control" required>
+                            <option value="Lingwala">Lingwala</option>
+                            <option value="Gombe">Gombe</option>
+                            <option value="Ngaliema">Ngaliema</option>
+                            <option value="Kintambo">Kintambo</option>
+                            <option value="Kinshasa">Kinshasa</option>
+                            <option value="Mont-Ngafula">Mont-Ngafula</option>
+                            <option value="Barumbu">Barumbu</option>
+                            <option value="Bumbu">Bumbu</option>
+                            <option value="Selembao">Selembao</option>
+                            <option value="Ngiri-Ngiri">Ngiri-Ngiri</option>
+                            <option value="Kalamu">Kalamu</option>
+                            <option value="Bandal">Bandal</option>
+                            <option value="Limete">Limété</option>
+                            <option value="Lemba">Lemba</option>
+                            <option value="Matete">Matete</option>
+                            <option value="Ngaba">Ngaba</option>
+                            <option value="Makala">Makala</option>
+                            <option value="Masina">Masina</option>
+                            <option value="Kinsensu">Kinsensu</option>
+                            <option value="Ndjili">Nd'jili</option>
+                            <option value="Kimbanseke">Kimbanseke</option>
+                            <option value="Nsele">Nsele</option>
+                            <option value="Kinkole">Kinkole</option>
+                            <option value="Maluku">Maluku</option>
+                        </select>
+                        @if ($errors->has('commune'))
+                            <span class="text-danger">{{ $errors->first('commune') }}</span>
+                        @endif
+                    </div>
 
-					<!-- plan description -->
-					<ul>
-						<li><i class="tf-ion-ios-arrow-forward"></i> 1GB Disk Space</li>
-						<li><i class="tf-ion-ios-arrow-forward"></i> 50 Email Account</li>
-						<li><i class="tf-ion-ios-arrow-forward"></i> Script Installer</li>
-						<li><i class="tf-ion-ios-arrow-forward"></i> 1 GB Storage</li>
-						<li><i class="tf-ion-ios-arrow-forward"></i> 10 GB Bandwidth</li>
-						<li><i class="tf-ion-ios-arrow-forward"></i> 24/7 Tech Support</li>
-					</ul>
-					<!-- /plan description -->
+                    <div class="form-group mb-4">
+                        <input type="text" placeholder="Votre Quartier" class="form-control" name="quartier"
+                            id="quartier">
+                        @if ($errors->has('quartier'))
+                            <span class="text-danger">{{ $errors->first('quartier') }}</span>
+                        @endif
+                    </div>
 
-					<!-- signup button -->
-					<a class="btn btn-main" href="contact.html">Signup</a>
-					<!-- /signup button -->
+                    <div class="form-group mb-4">
+                        <input type="text" placeholder="Rue et N° " class="form-control" name="rue"
+                            id="rue">
+                        @if ($errors->has('rue'))
+                            <span class="text-danger">{{ $errors->first('rue') }}</span>
+                        @endif
+                    </div>
 
-				</div>
-			</div>
-			<!-- end single pricing table -->
+                    <div id="cf-submit">
+                        <input type="submit" id="contact-submit" class="btn btn-transparent" value="Soumettre">
+                    </div>
 
-			<!-- single pricing table -->
-			<div class="col-lg-4 col-md-6 ">
-				<div class="pricing-item">
+                </form>
+            </div>
+            <!-- ./End Contact Form -->
 
-					<!-- plan name & value -->
-					<div class="price-title">
-						<h3>Enterprise</h3>
-						<strong class="value">$59</strong>
-						<p>Great for large businesses with more than 5 employees</p>
-					</div>
-					<!-- /plan name & value -->
-
-					<!-- plan description -->
-					<ul>
-						<li><i class="tf-ion-ios-arrow-forward"></i> Unlimited Disk Space</li>
-						<li><i class="tf-ion-ios-arrow-forward"></i> Unlimited Email Account</li>
-						<li><i class="tf-ion-ios-arrow-forward"></i> Script Installer</li>
-						<li><i class="tf-ion-ios-arrow-forward"></i> Unlimited Storage</li>
-						<li><i class="tf-ion-ios-arrow-forward"></i> Unlimited Bandwidth</li>
-						<li><i class="tf-ion-ios-arrow-forward"></i> 24/7 Tech Support</li>
-					</ul>
-					<!-- /plan description -->
-
-					<!-- signup button -->
-					<a class="btn btn-main" href="contact.html">Signup</a>
-					<!-- /signup button -->
-
-				</div>
-			</div>
-			<!-- end single pricing table -->
-
-
-		</div> <!-- End row -->
-	</div> <!-- End container -->
-</section> <!-- End section -->
+        </div> <!-- end row -->
+    </div> <!-- end container -->
+</section> <!-- end section -->
 
 @include('include_pages.client_footer')
 @endsection

@@ -29,7 +29,7 @@
     <!-- summernote -->
     <link rel="stylesheet" href="{{ asset('backend/plugins/summernote/summernote-bs4.min.css') }}">
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('frontend/images/company/IMG_8311.jpg') }}" />
+    <link rel="shortcut icon" type="image/x-icon" href="{{asset('frontend/images/logos/LOGO-KIM-BLACK-PNG.png')}}" />
     @yield('style')
 </head>
 

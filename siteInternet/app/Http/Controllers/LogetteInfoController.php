@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\LogetteInfo;
 use Illuminate\Http\Request;
 
 class LogetteInfoController extends Controller
@@ -27,7 +28,22 @@ class LogetteInfoController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'nom' => 'required',
+            'postnom' => 'required',
+            'prenom' => 'required',
+            'fonction' => 'required',
+            'email' => 'required|email',
+            'tel' => 'digits:10|numeric',
+            'commune' => 'required|string',
+            'quartier' => 'string',
+            'rue' => 'string',
+        ]);
+  
+        LogetteInfo::create($request->all());
+  
+        return redirect()->back()
+                         ->with(['status' => 'Merci d\'avoir précommandé notre logette intelligente. Elle sera bientôt sur le marché.']);
     }
 
     /**

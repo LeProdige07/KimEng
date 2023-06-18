@@ -1,11 +1,11 @@
 @extends('layouts.client')
 @section('title')
-Projets
+    Projets
 @endsection
 @section('content')
     @include('include_pages.client_navbar')
 @section('breadcrumb_title')
-Projets
+    Projets
 @endsection
 @include('include_pages.client_breadcrumb')
 <!-- Start Portfolio Section
@@ -18,9 +18,9 @@ Projets
                 <!-- section title -->
                 <div class="title text-center">
                     <h2>Nos Projets</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, veritatis. Lorem ipsum dolor sit
-                        amet,
-                        consectetur adipisicing elit. Minima, vitae? </p>
+                    <p>Avec comme projet principal la logette intelligente, nous disposons d'un département avec un
+                        personnel capable de vous accompagner dans la réalisation de vos projets relatifs à chacun de
+                        nos services.</p>
                     <div class="border"></div>
                 </div>
                 <!-- /section title -->
@@ -30,7 +30,7 @@ Projets
         <div class="row">
             <div class="col-lg-12">
                 <div class="portfolio-filter">
-                    <button type="button" data-filter="all">All</button>
+                    <button type="button" data-filter="all">Tous les projets</button>
                 </div>
                 <div class="row">
                     <div class="col-12">

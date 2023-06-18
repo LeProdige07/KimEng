@@ -18,10 +18,7 @@
             <div class="col-xl-6 col-lg-8">
                 <div class="title text-center">
                     <h2 id="service">Nos Services</h2>
-                    <p>Vestibulum nisl tortor, consectetur quis imperdiet bibendum, laoreet sed arcu. Sed condimentum
-                        iaculis ex,
-                        in faucibus lorem accumsan non. Donec mattis tincidunt metus. Morbi sed tortor a risus luctus
-                        dignissim.</p>
+                    <p>Nous vous proposons des services modernes et très adaptés à vos besoins.</p>
                     <div class="border"></div>
                 </div>
             </div>
@@ -54,8 +51,7 @@
             <div class="col-xl-6 col-lg-8">
                 <div class="title text-center">
                     <h2>Nos Compétences</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus fugiat, vel veniam, eos et
-                        delectus eveniet molestiae. Esse, voluptas ratione.</p>
+                    <p>Nous disposons d'une équipe d'ingénieurs dans divers domaines.</p>
                     <div class="border"></div>
                 </div>
             </div>
@@ -66,10 +62,9 @@
             <div class="col-md-5">
                 <div class="team-skills-content">
                     <h2 class="mb-3">Travaillons en toute simplicité</h2>
-                    <p>Vestibulum nisl tortor, consectetur quis imperdiet bium, letcu. Sedndime ntumiaculis ex, in
-                        faucibus lorem accumsan non. Donec mattis tin unt metuorbi sed tort Igor aman luctus dignissim.
-                        Vestibulum nisl tortor, consectetur quis imperdiet bium, letcu. Sedndime ntumiaculis ex, in
-                        faucibus lorem accumsan non.</p>
+                    <p>Actuellement, il y a beaucoup de généralistes sur le marché, la bonne qualité dans le travail
+                        n'est pas assuré. Nous mettons sur le marché des ingénieurs performants disposant d'années
+                        d'expériences professionnelles.</p>
                     <a href="contact.html" class="btn btn-main mt-20">Contactez-nous</a>
                 </div>
             </div>
@@ -79,42 +74,42 @@
                         <li class="mb-3">
                             <span>Electronique industrielle</span>
                             <div class="progress">
-                                <div class="progress-bar" style="width: 90%;">
+                                <div class="progress-bar" style="width: 99%;">
                                 </div>
                             </div>
                         </li>
                         <li class="mb-3">
                             <span>Electricité</span>
                             <div class="progress">
-                                <div class="progress-bar" style="width: 90%;">
+                                <div class="progress-bar" style="width: 99%;">
                                 </div>
                             </div>
                         </li>
                         <li class="mb-3">
                             <span>Développement Web</span>
                             <div class="progress">
-                                <div class="progress-bar" style="width: 95%;">
+                                <div class="progress-bar" style="width: 98%;">
                                 </div>
                             </div>
                         </li>
                         <li class="mb-3">
                             <span>Internet des objets</span>
                             <div class="progress">
-                                <div class="progress-bar" style="width: 95%;">
+                                <div class="progress-bar" style="width: 98%;">
                                 </div>
                             </div>
                         </li>
                         <li class="mb-3">
                             <span>Robotique</span>
                             <div class="progress">
-                                <div class="progress-bar" style="width: 90%;">
+                                <div class="progress-bar" style="width: 99%;">
                                 </div>
                             </div>
                         </li>
                         <li class="mb-3">
                             <span>Domotique</span>
                             <div class="progress">
-                                <div class="progress-bar" style="width: 90%;">
+                                <div class="progress-bar" style="width: 98%;">
                                 </div>
                             </div>
                         </li>

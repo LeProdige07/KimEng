@@ -1,11 +1,11 @@
 @extends('layouts.client')
 @section('title')
-Notre Equipe
+    Notre Equipe
 @endsection
 @section('content')
     @include('include_pages.client_navbar')
 @section('breadcrumb_title')
-Equipe
+    Equipe
 @endsection
 @include('include_pages.client_breadcrumb')
 <!--
@@ -30,16 +30,9 @@ Equipe
                 <img loading="lazy" src="frontend/images/team/_K8A7678.jpg" class="img-fluid" alt="team image">
             </div>
             <div class="col-lg-6">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a tempor eros. Pellentesque elementum
-                    nulla
-                    sed justo tempor posuere sit amet sit amet ligula. Curabitur felis nibh, imperdiet eu erat non,
-                    luctus cursus
-                    lectus. Donec maximus diam leo, sed fringilla nisl auctor eget. Donec dictum neque est, ac faucibus
-                    ex blandit
-                    a.</p>
-                <p>Curabitur felis nibh, imperdiet eu erat non, luctus cursus lectus. Donec maximus diam leo, sed
-                    fringilla nisl
-                    auctor eget. Donec dictum neque est, ac faucibus ex blandit a</p>
+                <p>Kim Engineering est composé d'une équipe d'ingénieurs compétents et qualifiés dans divers domaines
+                    tels que l'électronique industrielle, l'électricité, l'internet des objets connectés, le
+                    développement web et bien d'autres domaines énumérés en dessous.</p>
                 <h4>Nos compétences</h4>
                 <ul class="feature-list">
                     <li> <i class="tf-ion-android-checkmark-circle"></i>Electronique industrielle</li>
@@ -63,9 +56,7 @@ Equipe
             <div class="col-xl-6 col-lg-8">
                 <div class="title text-center ">
                     <h2>Kim Engineering</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque quasi tempora obcaecati,
-                        quis
-                        similique quos.</p>
+                    <p>Voici la présentation de l'organigramme chef de Kim Engineering composé d'ingénieurs qualifiés.</p>
                     <div class="border"></div>
                 </div>
             </div>

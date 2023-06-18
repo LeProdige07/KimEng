@@ -9,6 +9,7 @@ Route::get('/projets_us', [App\Http\Controllers\ClientController::class, 'projet
 Route::get('/formations_us', [App\Http\Controllers\ClientController::class, 'formations_us']);
 Route::get('/team', [App\Http\Controllers\ClientController::class, 'team']);
 Route::get('/logette', [App\Http\Controllers\ClientController::class, 'logette']);
+Route::post('/precommande_logette', [App\Http\Controllers\LogetteInfoController::class, 'store'])->name('precommande');
 Route::get('/news', [App\Http\Controllers\ClientController::class, 'news']);
 Route::get('/contact', [App\Http\Controllers\ClientController::class, 'contact']);
 Route::get('/single_new/{id}', [App\Http\Controllers\ClientController::class, 'single_new']);

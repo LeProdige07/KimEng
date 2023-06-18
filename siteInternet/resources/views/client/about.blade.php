@@ -49,10 +49,10 @@ A propos de nous
                     <h3>Notre Vision</h3>
                     <p>Nous sommes à l'ère du numérique, la 4ème révolution industrielle. La seule option qui se présente à
                         notre pays est de s'adapter ou de disparaitre.
-                        C'est pourquoi nous nous donnons cette lourde charge de révolutionner la RDC avec les nouvelles
+                        C'est pourquoi nous nous donnons cette lourde charge de révolutionner la RDC et l'Afrique avec les nouvelles
                         technologies.</p>
                     <p>Le numérique est actuellement l'une des portes vers le développement durable.
-                        Notre bien aimé pays doit s'adapter et évoluer dans le numérique. Telle est notre vision.
+                        Notre bien aimé continent doit s'adapter et évoluer dans le numérique. Telle est notre vision.
                     </p>
                     <img loading="lazy" src="frontend/images/team/_K8A7686.jpg" alt="" class="img-fluid mt-30">
                 </div>
@@ -106,9 +106,7 @@ A propos de nous
                 <div class="col-xl-6 col-lg-8">
                     <div class="title text-center ">
                         <h2>Notre Equipe</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque quasi tempora obcaecati,
-                            quis
-                            similique quos.</p>
+                        <p>Avec une équipe compétente et professionnelle, nous vous offrons un travail de qualité et garanti.</p>
                         <div class="border"></div>
                     </div>
                 </div>

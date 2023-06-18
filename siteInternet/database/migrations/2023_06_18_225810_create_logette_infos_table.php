@@ -13,16 +13,15 @@ return new class extends Migration
     {
         Schema::create('logette_infos', function (Blueprint $table) {
             $table->id();
-            $table->string('type');
-            $table->string('price');
-            $table->text('full_description');
-            $table->text('description1');
-            $table->text('description2');
-            $table->text('description3');
-            $table->text('description4');
-            $table->text('description5');
-            $table->text('description6');
-            $table->integer('status');
+            $table->string('nom');
+            $table->string('postnom');
+            $table->string('prenom');
+            $table->string('fonction');
+            $table->string('email');
+            $table->string('tel');
+            $table->string('commune');
+            $table->string('quartier');
+            $table->string('rue');
             $table->timestamps();
         });
     }

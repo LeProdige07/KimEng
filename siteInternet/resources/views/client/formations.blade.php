@@ -18,9 +18,7 @@
                 <!-- section title -->
                 <div class="title text-center">
                     <h2>Nos Formations</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, veritatis. Lorem ipsum dolor sit
-                        amet,
-                        consectetur adipisicing elit. Minima, vitae? </p>
+                    <p>Kim Engineering, dans sa vision de révolutionner la RDC et l'Afrique, met à la disposition du public des formations dans le numérique.</p>
                     <div class="border"></div>
                 </div>
                 <!-- /section title -->
@@ -30,7 +28,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="portfolio-filter">
-                    <button type="button" data-filter="all">All</button>
+                    <button type="button" data-filter="all">Toutes les formations</button>
                 </div>
                 <div class="row">
                     <div class="col-12">
