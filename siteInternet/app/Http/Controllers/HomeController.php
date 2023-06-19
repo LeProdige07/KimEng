@@ -12,6 +12,7 @@ use App\Models\Personnel;
 use App\Models\Temoignage;
 use Illuminate\Http\Request;
 use App\Models\ClientSatisfait;
+use App\Models\LogetteInfo;
 
 class HomeController extends Controller
 {
@@ -41,9 +42,10 @@ class HomeController extends Controller
         $nbr_news = count(Nouvelle::all());
         $nbr_personnel = count(Personnel::all());
         $nbr_temoignages = count(Temoignage::all());
+        $nbr_precommandes = count(LogetteInfo::all());
         
         return view('home',compact('nbr_user_online', 'nbr_services',
         'nbr_projects', 'nbr_users', 'nbr_partenaires','nbr_faqs', 'nbr_news',
-        'nbr_personnel','nbr_temoignages'));
+        'nbr_personnel','nbr_temoignages','nbr_precommandes'));
     }
 }

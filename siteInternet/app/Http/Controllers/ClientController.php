@@ -60,6 +60,11 @@ class ClientController extends Controller
         return view('client.logette',compact('services'));
     }
 
+    public function precommandes_logettes(){
+        $services = Service::where('status', 1)->limit(6)->get();
+        return view('client.precommandes',compact('services'));
+    }
+
     public function news(){
 
         $services = Service::where('status', 1)->limit(6)->get();

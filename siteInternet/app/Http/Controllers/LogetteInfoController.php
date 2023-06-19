@@ -12,7 +12,9 @@ class LogetteInfoController extends Controller
      */
     public function index()
     {
-        //
+        $logette_infos = LogetteInfo::all();
+
+        return view('admin.precommandes.index', compact('logette_infos'));
     }
 
     /**
@@ -34,10 +36,8 @@ class LogetteInfoController extends Controller
             'prenom' => 'required',
             'fonction' => 'required',
             'email' => 'required|email',
-            'tel' => 'digits:10|numeric',
             'commune' => 'required|string',
-            'quartier' => 'string',
-            'rue' => 'string',
+
         ]);
   
         LogetteInfo::create($request->all());

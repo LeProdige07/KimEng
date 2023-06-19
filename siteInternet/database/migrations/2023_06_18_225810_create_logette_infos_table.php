@@ -18,10 +18,10 @@ return new class extends Migration
             $table->string('prenom');
             $table->string('fonction');
             $table->string('email');
-            $table->string('tel');
+            $table->string('tel')->nullable(true);
             $table->string('commune');
-            $table->string('quartier');
-            $table->string('rue');
+            $table->string('quartier')->nullable(true);
+            $table->string('rue')->nullable(true);
             $table->timestamps();
         });
     }

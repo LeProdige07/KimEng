@@ -240,7 +240,7 @@
                                 <a href="{{ route('nouvelles.index') }}"
                                     class="nav-link {{ request()->is('nouvelles') ? 'active' : '' }}">
                                     <i class="far fa-file nav-icon"></i>
-                                    <p>News</p>
+                                    <p>Infos</p>
                                 </a>
                             </li>
                         </ul>
@@ -250,7 +250,7 @@
                                 <a href="{{ route('nouvelles.create') }}"
                                     class="nav-link {{ request()->is('nouvelles/create') ? 'active' : '' }}">
                                     <i class="far fa-file nav-icon"></i>
-                                    <p>Créer un new</p>
+                                    <p>Créer une info</p>
                                 </a>
                             </li>
                         </ul>
@@ -293,24 +293,24 @@
                     @endpermission
                 </li>
                 @endpermission
-                @permission('Faq', 'read')
+                @permission('LogetteInfo', 'read')
                 <li class="nav-item has-treeview
-        {{ request()->is('faqs') ? 'menu-open' : '' }}
+        {{ request()->is('logette_infos') ? 'menu-open' : '' }}
         ">
                     <a href="#" class="nav-link
-            {{ request()->is('faqs') ? 'active' : '' }}">
+            {{ request()->is('logette_infos') ? 'active' : '' }}">
                         <i class="nav-icon fas fa-folder"></i>
                         <p>
-                            FAQ
+                            Précommandes Logette
                             <i class="fas fa-angle-left right"></i>
                         </p>
                     </a>
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
-                                <a href="{{ route('faqs.index') }}"
-                                    class="nav-link {{ request()->is('faqs') ? 'active' : '' }}">
+                                <a href="{{ route('logette_infos.index') }}"
+                                    class="nav-link {{ request()->is('logette_infos') ? 'active' : '' }}">
                                     <i class="far fa-file nav-icon"></i>
-                                    <p>FAQ</p>
+                                    <p>Précommandes Logette</p>
                                 </a>
                             </li>
                         </ul>
