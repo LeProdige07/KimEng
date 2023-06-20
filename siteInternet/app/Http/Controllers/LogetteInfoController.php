@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Exports\PrecommandesExport;
 use App\Models\LogetteInfo;
+use Barryvdh\DomPDF\Facade\Pdf;
 use Illuminate\Http\Request;
 use Maatwebsite\Excel\Facades\Excel;
 
@@ -84,5 +85,13 @@ class LogetteInfoController extends Controller
         $logette_infos = LogetteInfo::orderBy('id','desc')->get();
         // return Excel::download(new PrecommandesExport($logette_infos), 'precommandes-logettes.csv', \Maatwebsite\Excel\Excel::CSV);
         return Excel::download(new PrecommandesExport($logette_infos), 'precommandes-logettes.xlsx');
+    }
+    public function precommandes_export_pdf(){
+        $logette_infos = LogetteInfo::orderBy('id','desc')->get();
+        $pdf = Pdf::loadView('pdf.precommandes',[
+            'logette_infos' => $logette_infos
+        ]);
+        // return $pdf->stream();
+        return $pdf->download('precommandes-logettes.pdf');
     }
 }
