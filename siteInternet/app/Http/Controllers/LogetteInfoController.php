@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Exports\PrecommandesExport;
 use App\Models\LogetteInfo;
 use Illuminate\Http\Request;
+use Maatwebsite\Excel\Facades\Excel;
 
 class LogetteInfoController extends Controller
 {
@@ -76,5 +78,11 @@ class LogetteInfoController extends Controller
     public function destroy(string $id)
     {
         //
+    }
+
+    public function precommandes_export_excel(){
+        $logette_infos = LogetteInfo::orderBy('id','desc')->get();
+        // return Excel::download(new PrecommandesExport($logette_infos), 'precommandes-logettes.csv', \Maatwebsite\Excel\Excel::CSV);
+        return Excel::download(new PrecommandesExport($logette_infos), 'precommandes-logettes.xlsx');
     }
 }

@@ -23,7 +23,7 @@ Précommandes Logette
                                     <div class="col-12">
                                         <div class="float-sm-right">
                                             @permission('logette_info','create')
-                                                <a href="#" class="btn btn-success" style="color:white">
+                                                <a href="{{url('/precommandes_export_excel')}}" class="btn btn-success" style="color:white">
                                                     <span style="color:white"></span> {{ __('Exporter Excel') }}
                                                 </a>
                                             @endpermission

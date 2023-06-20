@@ -31,3 +31,5 @@ Route::get('/activer_project/{id}', [App\Http\Controllers\ProjectController::cla
 Route::get('/desactiver_project/{id}', [App\Http\Controllers\ProjectController::class, 'desactiver_project']);
 Route::get('/activer_service/{id}', [App\Http\Controllers\ServiceController::class, 'activer_service']);
 Route::get('/desactiver_service/{id}', [App\Http\Controllers\ServiceController::class, 'desactiver_service']);
+
+Route::get('/precommandes_export_excel', [App\Http\Controllers\LogetteInfoController::class, 'precommandes_export_excel']);
