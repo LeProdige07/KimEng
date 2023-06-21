@@ -34,3 +34,5 @@ Route::get('/desactiver_service/{id}', [App\Http\Controllers\ServiceController::
 
 Route::get('/precommandes_export_excel', [App\Http\Controllers\LogetteInfoController::class, 'precommandes_export_excel']);
 Route::get('/precommandes_export_pdf', [App\Http\Controllers\LogetteInfoController::class, 'precommandes_export_pdf']);
+Route::get('/contacts_export_excel', [App\Http\Controllers\ContactController::class, 'contacts_export_excel']);
+

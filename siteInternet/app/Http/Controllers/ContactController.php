@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Exports\ContactsExport;
 use App\Models\Contact;
 use Illuminate\Http\Request;
+use Maatwebsite\Excel\Facades\Excel;
 
 class ContactController extends Controller
 {
@@ -26,5 +28,11 @@ class ContactController extends Controller
 
         return redirect()->back()
             ->with(['success' => 'Merci d\'avoir contacté Kim Engineering . Nous allons vous recontacter sous peu.']);
+    }
+
+    public function contacts_export_excel(){
+        $contacts = Contact::orderBy('id','desc')->get();
+        // return Excel::download(new PrecommandesExport($logette_infos), 'precommandes-logettes.csv', \Maatwebsite\Excel\Excel::CSV);
+        return Excel::download(new ContactsExport($contacts), 'mails-contact.xlsx');
     }
 }

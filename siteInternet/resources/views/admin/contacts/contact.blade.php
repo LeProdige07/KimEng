@@ -1,6 +1,6 @@
 @extends('admin_layout.admin')
 @section('title')
-Mails de contact
+    Mails de contact
 @endsection
 @section('style')
     <!-- DataTables -->
@@ -19,6 +19,18 @@ Mails de contact
                     <div class="card">
                         <div class="card-header">
                             <h3 class="card-title">Mails de contact</h3>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="float-sm-right">
+                                        @permission('logette_info', 'read')
+                                            <a href="{{ url('/contacts_export_excel') }}" class="btn btn-success"
+                                                style="color:white">
+                                                <span style="color:white"></span> {{ __('Excel') }}
+                                            </a>
+                                        @endpermission
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         @if (Session::has('status'))
                             <div class="alert alert-success">
