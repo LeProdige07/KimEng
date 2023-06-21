@@ -363,6 +363,29 @@
                     </ul>
                 </li>
                 @endpermission
+                @permission('Contact', 'read')
+                <li class="nav-item has-treeview
+        {{ request()->is('contacts') ? 'menu-open' : '' }}
+        ">
+                    <a href="#" class="nav-link
+            {{ request()->is('contacts') ? 'active' : '' }}">
+                        <i class="nav-icon fas fa-folder"></i>
+                        <p>
+                            Mails de contact
+                            <i class="fas fa-angle-left right"></i>
+                        </p>
+                    </a>
+                        <ul class="nav nav-treeview">
+                            <li class="nav-item">
+                                <a href="{{ route('contacts.index') }}"
+                                    class="nav-link {{ request()->is('contacts') ? 'active' : '' }}">
+                                    <i class="far fa-file nav-icon"></i>
+                                    <p>Mails de contact</p>
+                                </a>
+                            </li>
+                        </ul>
+                </li>
+                @endpermission
             </ul>
         </nav>
         <!-- /.sidebar-menu -->

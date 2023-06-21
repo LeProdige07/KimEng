@@ -15,3 +15,4 @@ Route::get('/contact', [App\Http\Controllers\ClientController::class, 'contact']
 Route::get('/single_new/{id}', [App\Http\Controllers\ClientController::class, 'single_new']);
 Route::get('/single_projet/{id}', [App\Http\Controllers\ClientController::class, 'single_projet']);
 Route::get('/single_formation/{id}', [App\Http\Controllers\ClientController::class, 'single_formation']);
+Route::post('/contactez-nous', [App\Http\Controllers\ContactController::class, 'store']);
