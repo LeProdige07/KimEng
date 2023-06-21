@@ -18,7 +18,7 @@
                 <!-- section title -->
                 <div class="title text-center">
                     <h2>Nos Formations</h2>
-                    <p>Kim Engineering, dans sa vision de révolutionner la RDC et l'Afrique, met à la disposition du public des formations dans le numérique.</p>
+                    <p>Kim Engineering, dans sa vision de révolutionner la RDC et l'Afrique, met à la disposition du public des formations pour un numérique utile à tous.</p>
                     <div class="border"></div>
                 </div>
                 <!-- /section title -->

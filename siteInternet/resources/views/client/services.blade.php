@@ -88,28 +88,21 @@
                         <li class="mb-3">
                             <span>Développement Web</span>
                             <div class="progress">
-                                <div class="progress-bar" style="width: 98%;">
+                                <div class="progress-bar" style="width: 99%;">
                                 </div>
                             </div>
                         </li>
                         <li class="mb-3">
                             <span>Internet des objets</span>
                             <div class="progress">
-                                <div class="progress-bar" style="width: 98%;">
-                                </div>
-                            </div>
-                        </li>
-                        <li class="mb-3">
-                            <span>Robotique</span>
-                            <div class="progress">
                                 <div class="progress-bar" style="width: 99%;">
                                 </div>
                             </div>
                         </li>
                         <li class="mb-3">
-                            <span>Domotique</span>
+                            <span>Robotique et Domotique</span>
                             <div class="progress">
-                                <div class="progress-bar" style="width: 98%;">
+                                <div class="progress-bar" style="width: 99%;">
                                 </div>
                             </div>
                         </li>
