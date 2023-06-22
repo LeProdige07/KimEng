@@ -42,7 +42,7 @@
                     </li>
                     <li>
                         <i class="tf-ion-android-mail"></i>
-                        <span>Adresse email: hello@meghna.com</span>
+                        <span>Adresse email: info@kimengineering.net</span>
                     </li>
                 </ul>
                 <!-- Footer Social Links -->
