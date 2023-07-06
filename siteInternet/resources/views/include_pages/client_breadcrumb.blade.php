@@ -1,4 +1,4 @@
-<section class="single-page-header" style="background-image: url({{asset('frontend/images/about-header.jpg')}}, env('REDIRECT_HTTPS'));">
+<section class="single-page-header" style="background-image: url({{asset('frontend/images/breadcrumb.jpg', env('REDIRECT_HTTPS'))}});">
     <div class="container">
         <div class="row">
             <div class="col-md-12">

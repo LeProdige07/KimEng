@@ -17,7 +17,7 @@
             </div>
         </div>
     </div>
-    <div class="slider-item th-fullpage hero-area" style="background-image: url(frontend/images/sliders/IMG_9941.jpg);">
+    <div class="slider-item th-fullpage hero-area" style="background-image: url(frontend/images/sliders/slider2.jpg);">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
