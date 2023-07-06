@@ -28,7 +28,7 @@
                 <h3 class="mb-3">Kim Engineering</h3>
                 <p>Est à votre disposition 24h/24 et 7j/7. Vous pouvez nous contacter via ce formulaire ou vous rendre
                     directement à nos locaux situés à l'adresse ci-dessous.
-                    Nous sommes aptes à vous répondre et à vous service.
+                    Nous sommes aptes à vous répondre et à vous servir.
                     Votre satisfaction est notre devoir.
                 </p>
                 <ul class="contact-short-info mt-4">
