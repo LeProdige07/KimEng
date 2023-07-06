@@ -1,7 +1,7 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="{{ url('/') }}" class="brand-link">
-        <img src="{{asset('frontend/images/logos/LOGO-KIM-WHITE-PNG.png')}}" alt="Kim Engineering Logo" class="brand-image img-circle elevation-3">
+        <img src="{{asset('frontend/images/logos/LOGO-KIM-WHITE-PNG.png', env('REDIRECT_HTTPS'))}}" alt="Kim Engineering Logo" class="brand-image img-circle elevation-3">
         <span class="brand-text font-weight-light">Kim Engineering</span>
     </a>
 

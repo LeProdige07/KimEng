@@ -19,7 +19,7 @@
                 <article class="post">
                     <div class="post-image mb-5">
                         <img loading="lazy" class="img-fluid w-100"
-                            src="{{ asset('storage/nouvelle_images/' . $nouvelle->nouvelle_image) }}" alt="post-image">
+                            src="{{ asset('storage/nouvelle_images/' . $nouvelle->nouvelle_image, env('REDIRECT_HTTPS')) }}" alt="post-image">
                     </div>
                     <!-- Post Content -->
                     <div class="post-content">
@@ -76,7 +76,7 @@
                                 <li class="widget-post-list-item">
                                     <div class="widget-post-image">
                                         <a href="single-post.html">
-                                            <img loading="lazy" src="{{ asset('storage/nouvelle_images/' . $nouvelle->nouvelle_image) }}"
+                                            <img loading="lazy" src="{{ asset('storage/nouvelle_images/' . $nouvelle->nouvelle_image, env('REDIRECT_HTTPS')) }}"
                                                 alt="post-img">
                                         </a>
                                     </div>

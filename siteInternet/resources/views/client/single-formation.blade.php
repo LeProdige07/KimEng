@@ -22,22 +22,22 @@ Formation : {{$formation->formation_name}}
                 <div class="hero-slider">
                     <div class="slider-item">
                         <img loading="lazy" class="img-fluid"
-                        src="{{ asset('storage/formation_images/' . $formation->formation_image1) }}"
+                        src="{{ asset('storage/formation_images/' . $formation->formation_image1, env('REDIRECT_HTTPS')) }}"
                         alt="formation-image" />
                     </div>
                     <div class="slider-item">
                         <img loading="lazy" class="img-fluid"
-                        src="{{ asset('storage/formation_images/' . $formation->formation_image2) }}"
+                        src="{{ asset('storage/formation_images/' . $formation->formation_image2, env('REDIRECT_HTTPS')) }}"
                         alt="formation-image" />
                     </div>
                     <div class="slider-item">
                         <img loading="lazy" class="img-fluid"
-                        src="{{ asset('storage/formation_images/' . $formation->formation_image3) }}"
+                        src="{{ asset('storage/formation_images/' . $formation->formation_image3, env('REDIRECT_HTTPS')) }}"
                         alt="formation-image" />
                     </div>
                     <div class="slider-item">
                         <img loading="lazy" class="img-fluid"
-                        src="{{ asset('storage/formation_images/' . $formation->formation_image4) }}"
+                        src="{{ asset('storage/formation_images/' . $formation->formation_image4, env('REDIRECT_HTTPS')) }}"
                         alt="formation-image" />
                     </div>
                 </div>

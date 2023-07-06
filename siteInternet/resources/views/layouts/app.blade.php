@@ -15,7 +15,7 @@
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="{{asset('frontend/images/logos/LOGO-KIM-BLACK-PNG.png')}}" />
+    <link rel="shortcut icon" type="image/x-icon" href="{{asset('frontend/images/logos/LOGO-KIM-BLACK-PNG.png', env('REDIRECT_HTTPS'))}}" />
 
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
@@ -26,7 +26,7 @@
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                <img loading="lazy" class="logo-default" style="height : 100px; width : 100px" src="{{asset('frontend/images/logos/LOGO-KIM-BLACK-PNG.png')}}" alt="logo" />
+                <img loading="lazy" class="logo-default" style="height : 100px; width : 100px" src="{{asset('frontend/images/logos/LOGO-KIM-BLACK-PNG.png', env('REDIRECT_HTTPS'))}}" alt="logo" />
                     Kim Engineering
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"

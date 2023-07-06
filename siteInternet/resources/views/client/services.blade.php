@@ -30,7 +30,7 @@
                 <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
                     <div class="service-block p-4 {{ $service->color($key) }} text-center">
                         <div class="service-icon text-center">
-                            <img loading="lazy" src="{{ asset('storage/service_images/' . $service->service_image) }}"
+                            <img loading="lazy" src="{{ asset('storage/service_images/' . $service->service_image, env('REDIRECT_HTTPS')) }}"
                                 alt="amazing caves coverimage" class="img-fluid">
                         </div>
                         <h3>{{ $service->service_name }}</h3>
@@ -116,7 +116,7 @@
                 <div id="clients-slider" class="clients-logo-slider">
                     @foreach ($clientsatisfaits as $clientsatisfait)
                         <img loading="lazy"
-                            src="{{ asset("storage/clientsatisfait_images/$clientsatisfait->logo_client ") }}"
+                            src="{{ asset("storage/clientsatisfait_images/$clientsatisfait->logo_client ", env('REDIRECT_HTTPS')) }}"
                             alt="Client logo">
                     @endforeach
                 </div>

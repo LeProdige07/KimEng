@@ -18,7 +18,7 @@
                 <article class="col-lg-4 col-md-6">
                     <div class="post-item">
                         <div class="media-wrapper">
-                            <img loading="lazy" src="{{ asset('storage/nouvelle_images/' . $nouvelle->nouvelle_image) }}" alt="amazing caves coverimage"
+                            <img loading="lazy" src="{{ asset('storage/nouvelle_images/' . $nouvelle->nouvelle_image, env('REDIRECT_HTTPS')) }}" alt="amazing caves coverimage"
                                 class="img-fluid">
                         </div>
 
