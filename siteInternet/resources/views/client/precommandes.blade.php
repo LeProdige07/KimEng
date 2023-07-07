@@ -36,6 +36,7 @@
                 <form id="contact-form" method="post" role="form" action="{{ route('logette_infos.store') }}">
                     {{ csrf_field() }}
                     <div class="form-group mb-4">
+                        <span class="text-danger">*</span>
                         <input type="text" placeholder="Votre Nom" class="form-control" name="nom" id="nom"
                             required>
                         @if ($errors->has('nom'))
@@ -44,6 +45,7 @@
                     </div>
 
                     <div class="form-group mb-4">
+                        <span class="text-danger">*</span>
                         <input type="text" placeholder="Votre Post-nom" class="form-control" name="postnom"
                             id="postnom" required>
                         @if ($errors->has('postnom'))
@@ -52,6 +54,7 @@
                     </div>
 
                     <div class="form-group mb-4">
+                        <span class="text-danger">*</span>
                         <input type="text" placeholder="Votre Prénom" class="form-control" name="prenom"
                             id="prenom" required>
                         @if ($errors->has('prenom'))
@@ -60,6 +63,7 @@
                     </div>
 
                     <div class="form-group mb-4">
+                        <span class="text-danger">*</span>
                         <input type="email" placeholder="Votre Email" class="form-control" name="email"
                             id="email" required>
                         @if ($errors->has('email'))
@@ -76,7 +80,8 @@
                     </div>
 
                     <div class="form-group mb-4">
-                        <input type="text" placeholder="Votre Fontion" class="form-control" name="fonction"
+                        <span class="text-danger">*</span>
+                        <input type="text" placeholder="Votre Profession" class="form-control" name="fonction"
                             id="fonction" required>
                         @if ($errors->has('fonction'))
                             <span class="text-danger">{{ $errors->first('fonction') }}</span>
@@ -84,6 +89,7 @@
                     </div>
 
                     <div class="form-group mb-4">
+                        <span class="text-danger">*</span>
                         <select name="commune" id="commune" class="form-control" required>
                             <option value="Lingwala">Lingwala</option>
                             <option value="Gombe">Gombe</option>
