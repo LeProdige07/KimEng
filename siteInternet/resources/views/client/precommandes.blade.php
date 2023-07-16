@@ -31,8 +31,8 @@
                 <br>
                 <ul class="checklist">
                     <li>La stabilité de votre courant ?</li>
-                    <li>La survoltage de vos appareils ?</li>
-                    <li>La changement de phases électriques ?</li>
+                    <li>Le survoltage de vos appareils ?</li>
+                    <li>Le changement de phases électriques ?</li>
                     <li>La température de votre logette ?</li>
                     <li><p><b>Une solution numérique s'offre à vous : le pouvoir de gérer automatiquement, en toute sécurité et avec facilité
                         l'électricité de votre maison à partir de votre téléphone.
@@ -113,8 +113,8 @@
                     </div>
 
                     <div class="form-group mb-4">
-                        <span class="text">(obligatoire)</span>
-                        <input type="text" placeholder="Votre Profession" class="form-control" name="fonction"
+                        <span class="text">(obligatoire, ex. : Responsable marketing chez Kim Engineering)</span>
+                        <input type="text" placeholder="Votre Fonction" class="form-control" name="fonction"
                             id="fonction" required>
                         @if ($errors->has('fonction'))
                             <span class="text-danger">{{ $errors->first('fonction') }}</span>

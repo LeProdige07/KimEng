@@ -63,7 +63,7 @@
                 <div class="team-skills-content">
                     <h2 class="mb-3">Travaillons en toute simplicité</h2>
                     <p>Actuellement, il y a beaucoup de généralistes sur le marché, la bonne qualité dans le travail
-                        n'est pas assuré. Nous mettons sur le marché des ingénieurs performants disposant d'années
+                        n'est pas assurée. Nous mettons sur le marché des ingénieurs performants disposant d'années
                         d'expériences professionnelles.</p>
                     <a href="contact.html" class="btn btn-main mt-20">Contactez-nous</a>
                 </div>
