@@ -46,7 +46,7 @@ class LogetteInfoController extends Controller
         LogetteInfo::create($request->all());
   
         return redirect()->back()
-                         ->with(['status' => 'Merci d\'avoir précommandé notre logette intelligente. Elle sera bientôt sur le marché.']);
+                         ->with(['status' => 'Merci d\'avoir précommandé notre logette intelligente. Nous allons prendre contact avec vous et vous tenir au courant par la suite.']);
     }
 
     /**

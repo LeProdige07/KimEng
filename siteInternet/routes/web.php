@@ -26,6 +26,6 @@ Route::group(['middleware' => ['auth']], function () {
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->middleware('access:Service')->name('home');
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->middleware('access:LogetteInfo')->name('home');
 
 URL::forceScheme('https');

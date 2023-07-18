@@ -18,17 +18,17 @@
                 <div class="col-12">
                     <div class="card">
                         <div class="card-header">
-                            <h3 class="card-title">Précommandes</h3>
+                            <h3 class="card-title">Précommandes : {{count($logette_infos)}}</h3>
                             <div class="row">
                                 <div class="col-12">
                                     <div class="float-sm-right">
-                                        @permission('logette_info', 'read')
+                                        @permission('LogetteInfo', 'read')
                                             <a href="{{ url('/precommandes_export_excel') }}" class="btn btn-success"
                                                 style="color:white">
                                                 <span style="color:white"></span> {{ __('Excel') }}
                                             </a>
                                         @endpermission
-                                        @permission('logette_info', 'read')
+                                        @permission('LogetteInfo', 'read')
                                             <a href="{{ url('/precommandes_export_pdf') }}" class="btn btn-primary"
                                                 style="color:white">
                                                 <span style="color:white"></span> {{ __('PDF') }}

@@ -8,13 +8,48 @@
     Logette Intelligente
 @endsection
 @include('include_pages.client_breadcrumb')
+<section class="about-2 section" id="about">
+    <div class="container">
+        <div class="row justify-content-center">
+            <!-- section title -->
+            <div class="col-lg-6">
+                <div class="title text-center">
+                    <h2>LA LOGETTE INTELLIGENTE</h2>
+                    <div class="border"></div>
+                </div>
+            </div>
+            <!-- /section title -->
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-6 mb-4 mb-md-0">
+                <img loading="lazy" src="frontend/images/logos/logologetteblack.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-6">
+                <h4>UN SOUCI AVEC : </h4>
+                <br>
+                <ul class="checklist">
+                    <li>La stabilité de votre courant ?</li>
+                    <li>Le survoltage de vos appareils ?</li>
+                    <li>Le changement de phases électriques ?</li>
+                    <li>La température de votre logette ?</li>
+                    <li><p><b>Une solution numérique s'offre à vous : le pouvoir de gérer automatiquement, en toute sécurité et avec facilité
+                        l'électricité de votre maison à partir de votre téléphone.
+                        </b></p></li><br>
+                    <li><p><b>ALORS, NE CHERCHEZ PLUS...</b></p></li>
+                </ul>
+            </div>
+        </div> <!-- End row -->
+    </div> <!-- End container -->
+</section>
 <section class="promo-video section-sm">
     <div class="container">
         <div class="row justify-content-center">
             <!-- section title -->
             <div class="col-xl-6 col-lg-8">
                 <div class="title text-center">
-                    <h2>Notre logette Intelligente</h2>
+                    <h2>LA SOLUTION NUMERIQUE</h2>
                     <p>Une logette qui gère automatiquemennt l'électricité d'un batiment, qui fonctionne en monophasé,
                         biphasé
                         et triphasé; connectée à une application mobile qui permet la commande à distance de la logette
@@ -39,10 +74,20 @@
         <br><br>
         <div class="row">
             <div class="col-lg-6 mb-5 mb-lg-0">
+                <img loading="lazy" src="frontend/images/company/china.jpg" class="img-fluid" alt="team image">
+            </div>
+            <div class="col-lg-6">
+                <p>Kim Engineering est partenaire à l'entreprise JINGXIN ELECTRONIC pour la production de ses PCB personnalisés.
+                </p>
+            </div>
+        </div> <!-- End row -->
+        <br><br>
+        <div class="row">
+            <div class="col-lg-6 mb-5 mb-lg-0">
                 <img loading="lazy" src="frontend/images/company/forbes.png" class="img-fluid" alt="team image">
             </div>
             <div class="col-lg-6">
-                <p>Elle parrait dans les éditions du journal international FORBES AFRIQUE.
+                <p>La logette intelligente parrait dans les éditions du journal international FORBES AFRIQUE.
                 </p>
             </div>
         </div> <!-- End row -->

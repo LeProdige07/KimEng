@@ -6,7 +6,7 @@
                 <!-- section title -->
                 <div class="title text-center">
                     <h2>Les services que nous offrons.</h2>
-                    <p>Nous vous offrons des services de qualités dans un délai de temps fiable. Nos portes sont ouvertes à tous.</p>
+                    <p>Nous vous offrons des services de qualité dans un délai de temps fiable. Nos portes sont ouvertes à tous.</p>
                     <div class="border"></div>
                 </div>
                 <!-- /section title -->

@@ -78,10 +78,9 @@
                                     <tfoot>
                                         <tr>
                                             <th>Num.</th>
-                                            <th>{{ __('Name') }}</th>
+                                            <th>{{ __('Titre') }}</th>
                                             <th>{{ __('Sujet') }}</th>
                                             <th>Description</th>
-                                            <th>{{ __('Service') }}</th>
                                             <th>Image</th>
                                             {{-- <th>Vues</th> --}}
                                             <th>Actions</th>
