@@ -3,13 +3,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <h1 data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1">KIM
+                    <h1 data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1">Bienvenue chez KIM
                         ENGINEERING</h1>
-                    <p data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".5">Est une entreprise qui
-                        oeuvre dans la conception électronique,
-                        Internet des objets,<br> le développement Web, la domotique, Robotique,<br> Installation
-                        électrique des batiments
-                        <br>et installation Photovoltaique.
+                    <p data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".5">Nous sommes honorés de vous compter parmi nos clients<br> et ravis de vous accompagner avec toute quiétude dans vos différents besoins.
                     </p>
                     <a data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".8" class="btn btn-main"
                         href="{{ url('/services_us') }}">Voir plus</a>
@@ -39,12 +35,16 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <h1 data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".1">NOUS SOMMES UNE ENTREPRISE
-                        NUMERIQUE</h1>
-                    <p data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".5">Notre vision est de révolutionner la RDC et l'Afrique grâce aux nouvelles technologies.
+                    <h1 data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1">KIM
+                        ENGINEERING</h1>
+                    <p data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".5">Est une entreprise qui
+                        oeuvre dans la conception électronique,
+                        Internet des objets,<br> le développement Web, la domotique, Robotique,<br> Installation
+                        électrique des batiments
+                        <br>et installation Photovoltaique.
                     </p>
-                    <a data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".8" class="btn btn-main"
-                        href="#about">Lire plus</a>
+                    <a data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".8" class="btn btn-main"
+                        href="{{ url('/services_us') }}">Voir plus</a>
                 </div>
             </div>
         </div>
