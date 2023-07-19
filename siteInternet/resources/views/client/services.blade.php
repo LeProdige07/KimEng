@@ -65,7 +65,7 @@
                     <p>Actuellement, il y a beaucoup de généralistes sur le marché, la bonne qualité dans le travail
                         n'est pas assurée. Nous mettons sur le marché des ingénieurs performants disposant d'années
                         d'expériences professionnelles.</p>
-                    <a href="contact.html" class="btn btn-main mt-20">Contactez-nous</a>
+                    <a href="{{url('/contact')}}" class="btn btn-main mt-20">Contactez-nous</a>
                 </div>
             </div>
             <div class="col-md-6">
