@@ -42,7 +42,7 @@
                     </li>
                     <li>
                         <i class="tf-ion-android-mail"></i>
-                        <span>Adresse email: info@kimengineering.net</span>
+                        <span>Adresse email: info@kimengin.com</span>
                     </li>
                 </ul>
                 <!-- Footer Social Links -->
