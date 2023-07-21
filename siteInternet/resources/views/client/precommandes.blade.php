@@ -66,7 +66,7 @@
                         {{ Session::get('status') }}
                     </div>
                 @endif
-                <form id="contact-form" method="post" role="form" action="{{ route('logette_infos.store') }}">
+                <form id="contact-form" method="post" role="form" action="{{ url('/precommande') }}">
                     {{ csrf_field() }}
                     <div class="form-group mb-4">
                         <span class="text">(obligatoire)</span>

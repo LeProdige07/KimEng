@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\LogetteInfo;
 use App\Models\Galery;
 use App\Models\ClientSatisfait;
 use App\Models\Formation;
@@ -97,5 +98,21 @@ class ClientController extends Controller
         $formation = Formation::find($id);
 
         return view('client.single-formation',compact('services','formation'));
+    }
+    public function precommande(Request $request){
+        $request->validate([
+            'nom' => 'required',
+            'postnom' => 'required',
+            'prenom' => 'required',
+            'fonction' => 'required',
+            'email' => 'required|email',
+            'commune' => 'required|string',
+
+        ]);
+  
+        LogetteInfo::create($request->all());
+  
+        return redirect()->back()
+                         ->with(['status' => 'Merci d\'avoir précommandé notre logette intelligente. Nous allons prendre contact avec vous et vous tenir au courant par la suite.']);
     }
 }
