@@ -1,11 +1,11 @@
 @extends('layouts.client')
 @section('title')
-    Précommander de la Logette
+    Précommander la Logette
 @endsection
 @section('content')
     @include('include_pages.client_navbar')
 @section('breadcrumb_title')
-    Précommander de la Logette Intelligente
+    Précommander la Logette Intelligente
 @endsection
 @include('include_pages.client_breadcrumb')
 <section class="about-2 section" id="about">
@@ -52,7 +52,7 @@
             <div class="col-xl-6 col-lg-8">
                 <div class="title text-center">
                     <h2>PRECOMMANDER LA LOGETTE INTELLIGENTE</h2>
-                    <p>A travers ce formulaire, nous recevons votre pécommande pour la logette intelligente qui sera bientôt sur le marché.</p>
+                    <p>À travers ce formulaire, nous recevons votre pécommande pour la logette intelligente qui sera bientôt sur le marché.</p>
                     <div class="border"></div>
                 </div>
             </div>
