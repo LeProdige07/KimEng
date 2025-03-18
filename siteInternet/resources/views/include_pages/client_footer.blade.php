@@ -33,7 +33,7 @@
                         <li><a href="{{url('/projets_us')}}">Nos projets</a></li>
                         <li><a href="{{url('/formations_us')}}">Nos formations</a></li>
                         <li><a href="{{url('/team')}}">Equipe</a></li>
-                        <li><a href="{{url('/logette')}}">Logette Intelligente</a></li>
+                        <li><a href="{{url('/logette')}}">KIM BOX</a></li>
                         <li><a href="{{url('/news')}}">News</a></li>
                         <li><a href="{{url('/contact')}}">Contact</a></li>
                     </ul>

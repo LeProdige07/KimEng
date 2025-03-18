@@ -1,7 +1,8 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="{{ url('/') }}" class="brand-link">
-        <img src="{{asset('frontend/images/logos/LOGO-KIM-WHITE-PNG.png', env('REDIRECT_HTTPS'))}}" alt="Kim Engineering Logo" class="brand-image img-circle elevation-3">
+        <img src="{{ asset('frontend/images/logos/LOGO-KIM-WHITE-PNG.png', env('REDIRECT_HTTPS')) }}"
+            alt="Kim Engineering Logo" class="brand-image img-circle elevation-3">
         <span class="brand-text font-weight-light">Kim Engineering</span>
     </a>
 
@@ -30,7 +31,7 @@
                         </li>
                     </ul>
                 </li>
-                 @permission('User', 'read')
+                @permission('User', 'read')
                     <li
                         class="nav-item has-treeview
             {{ request()->is('users') ? 'menu-open' : '' }}
@@ -56,76 +57,76 @@
                     </li>
                 @endpermission
                 @permission('Role', 'read')
-                <li class="nav-item has-treeview {{ request()->is('roles') ? 'menu-open' : '' }}
+                    <li class="nav-item has-treeview {{ request()->is('roles') ? 'menu-open' : '' }}
             ">
-                    <a href="#" class="nav-link {{ request()->is('roles') ? 'active' : '' }}">
-                        <i class="nav-icon fas fa-folder"></i>
-                        <p>
-                            Roles
-                            <i class="fas fa-angle-left right"></i>
-                        </p>
-                    </a>
-                    <ul class="nav nav-treeview">
-                        <li class="nav-item">
-                            <a href="{{ route('roles.index') }}"
-                                class="nav-link {{ request()->is('roles') ? 'active' : '' }}">
-                                <i class="far fa-file nav-icon"></i>
-                                <p>Roles</p>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-                @endpermission
-                @permission('Service', 'read')
-                <li
-                    class="nav-item has-treeview
-            {{ request()->is('services') ? 'menu-open' : '' }} {{ request()->is('services/create') ? 'menu-open' : '' }}
-            ">
-                    <a href="#"
-                        class="nav-link
-                {{ request()->is('services') ? 'active' : '' }} {{ request()->is('services/create') ? 'active' : '' }}">
-                        <i class="nav-icon fas fa-folder"></i>
-                        <p>
-                            Services
-                            <i class="fas fa-angle-left right"></i>
-                        </p>
-                    </a>
-                    <ul class="nav nav-treeview">
-                        <li class="nav-item">
-                            <a href="{{ route('services.index') }}"
-                                class="nav-link {{ request()->is('services') ? 'active' : '' }}">
-                                <i class="far fa-file nav-icon"></i>
-                                <p>Services</p>
-                            </a>
-                        </li>
-                    </ul>
-                    @permission('Service', 'create')
+                        <a href="#" class="nav-link {{ request()->is('roles') ? 'active' : '' }}">
+                            <i class="nav-icon fas fa-folder"></i>
+                            <p>
+                                Roles
+                                <i class="fas fa-angle-left right"></i>
+                            </p>
+                        </a>
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
-                                <a href="{{ route('services.create') }}"
-                                    class="nav-link {{ request()->is('services/create') ? 'active' : '' }}">
+                                <a href="{{ route('roles.index') }}"
+                                    class="nav-link {{ request()->is('roles') ? 'active' : '' }}">
                                     <i class="far fa-file nav-icon"></i>
-                                    <p>Créer un service</p>
+                                    <p>Roles</p>
                                 </a>
                             </li>
                         </ul>
-                    @endpermission
-                </li>
+                    </li>
+                @endpermission
+                @permission('Service', 'read')
+                    <li
+                        class="nav-item has-treeview
+            {{ request()->is('services') ? 'menu-open' : '' }} {{ request()->is('services/create') ? 'menu-open' : '' }}
+            ">
+                        <a href="#"
+                            class="nav-link
+                {{ request()->is('services') ? 'active' : '' }} {{ request()->is('services/create') ? 'active' : '' }}">
+                            <i class="nav-icon fas fa-folder"></i>
+                            <p>
+                                Services
+                                <i class="fas fa-angle-left right"></i>
+                            </p>
+                        </a>
+                        <ul class="nav nav-treeview">
+                            <li class="nav-item">
+                                <a href="{{ route('services.index') }}"
+                                    class="nav-link {{ request()->is('services') ? 'active' : '' }}">
+                                    <i class="far fa-file nav-icon"></i>
+                                    <p>Services</p>
+                                </a>
+                            </li>
+                        </ul>
+                        @permission('Service', 'create')
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="{{ route('services.create') }}"
+                                        class="nav-link {{ request()->is('services/create') ? 'active' : '' }}">
+                                        <i class="far fa-file nav-icon"></i>
+                                        <p>Créer un service</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        @endpermission
+                    </li>
                 @endpermission
                 @permission('Project', 'read')
-                <li
-                    class="nav-item has-treeview
+                    <li
+                        class="nav-item has-treeview
             {{ request()->is('projects') ? 'menu-open' : '' }} {{ request()->is('projects/create') ? 'menu-open' : '' }}
             ">
-                    <a href="#"
-                        class="nav-link
+                        <a href="#"
+                            class="nav-link
                 {{ request()->is('projects') ? 'active' : '' }} {{ request()->is('projects/create') ? 'active' : '' }}">
-                        <i class="nav-icon fas fa-folder"></i>
-                        <p>
-                            Projects
-                            <i class="fas fa-angle-left right"></i>
-                        </p>
-                    </a>
+                            <i class="nav-icon fas fa-folder"></i>
+                            <p>
+                                Projects
+                                <i class="fas fa-angle-left right"></i>
+                            </p>
+                        </a>
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
                                 <a href="{{ route('projects.index') }}"
@@ -135,33 +136,33 @@
                                 </a>
                             </li>
                         </ul>
-                    @permission('Project', 'create')
-                        <ul class="nav nav-treeview">
-                            <li class="nav-item">
-                                <a href="{{ route('projects.create') }}"
-                                    class="nav-link {{ request()->is('projects/create') ? 'active' : '' }}">
-                                    <i class="far fa-file nav-icon"></i>
-                                    <p>Créer un project</p>
-                                </a>
-                            </li>
-                        </ul>
-                    @endpermission
-                </li>
+                        @permission('Project', 'create')
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="{{ route('projects.create') }}"
+                                        class="nav-link {{ request()->is('projects/create') ? 'active' : '' }}">
+                                        <i class="far fa-file nav-icon"></i>
+                                        <p>Créer un project</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        @endpermission
+                    </li>
                 @endpermission
                 @permission('Formation', 'read')
-                <li
-                    class="nav-item has-treeview
+                    <li
+                        class="nav-item has-treeview
             {{ request()->is('formations') ? 'menu-open' : '' }} {{ request()->is('formations/create') ? 'menu-open' : '' }}
             ">
-                    <a href="#"
-                        class="nav-link
+                        <a href="#"
+                            class="nav-link
                 {{ request()->is('formations') ? 'active' : '' }} {{ request()->is('formations/create') ? 'active' : '' }}">
-                        <i class="nav-icon fas fa-folder"></i>
-                        <p>
-                            Formations
-                            <i class="fas fa-angle-left right"></i>
-                        </p>
-                    </a>
+                            <i class="nav-icon fas fa-folder"></i>
+                            <p>
+                                Formations
+                                <i class="fas fa-angle-left right"></i>
+                            </p>
+                        </a>
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
                                 <a href="{{ route('formations.index') }}"
@@ -171,33 +172,69 @@
                                 </a>
                             </li>
                         </ul>
-                    @permission('Formation', 'create')
+                        @permission('Formation', 'create')
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="{{ route('formations.create') }}"
+                                        class="nav-link {{ request()->is('formations/create') ? 'active' : '' }}">
+                                        <i class="far fa-file nav-icon"></i>
+                                        <p>Créer une formation</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        @endpermission
+                    </li>
+                @endpermission
+                @permission('Logette', 'read')
+                    <li
+                        class="nav-item has-treeview
+            {{ request()->is('logettes') ? 'menu-open' : '' }} {{ request()->is('logettes/create') ? 'menu-open' : '' }}
+            ">
+                        <a href="#"
+                            class="nav-link
+                {{ request()->is('logettes') ? 'active' : '' }} {{ request()->is('logettes/create') ? 'active' : '' }}">
+                            <i class="nav-icon fas fa-folder"></i>
+                            <p>
+                                KIM BOX
+                                <i class="fas fa-angle-left right"></i>
+                            </p>
+                        </a>
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
-                                <a href="{{ route('formations.create') }}"
-                                    class="nav-link {{ request()->is('formations/create') ? 'active' : '' }}">
+                                <a href="{{ route('logettes.index') }}"
+                                    class="nav-link {{ request()->is('logettes') ? 'active' : '' }}">
                                     <i class="far fa-file nav-icon"></i>
-                                    <p>Créer une formation</p>
+                                    <p>Informations</p>
                                 </a>
                             </li>
                         </ul>
-                    @endpermission
-                </li>
+                        @permission('Logette', 'create')
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="{{ route('logettes.create') }}"
+                                        class="nav-link {{ request()->is('logettes/create') ? 'active' : '' }}">
+                                        <i class="far fa-file nav-icon"></i>
+                                        <p>Créer une info</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        @endpermission
+                    </li>
                 @endpermission
                 @permission('Personnel', 'read')
-                <li
-                    class="nav-item has-treeview
+                    <li
+                        class="nav-item has-treeview
             {{ request()->is('personnels') ? 'menu-open' : '' }} {{ request()->is('personnels/create') ? 'menu-open' : '' }}
             ">
-                    <a href="#"
-                        class="nav-link
+                        <a href="#"
+                            class="nav-link
                 {{ request()->is('personnels') ? 'active' : '' }} {{ request()->is('personnels/create') ? 'active' : '' }}">
-                        <i class="nav-icon fas fa-folder"></i>
-                        <p>
-                            Personnel
-                            <i class="fas fa-angle-left right"></i>
-                        </p>
-                    </a>
+                            <i class="nav-icon fas fa-folder"></i>
+                            <p>
+                                Personnel
+                                <i class="fas fa-angle-left right"></i>
+                            </p>
+                        </a>
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
                                 <a href="{{ route('personnels.index') }}"
@@ -207,34 +244,34 @@
                                 </a>
                             </li>
                         </ul>
-                    @permission('Personnel', 'create')
-                        <ul class="nav nav-treeview">
-                            <li class="nav-item">
-                                <a href="{{ route('personnels.create') }}"
-                                    class="nav-link {{ request()->is('personnels/create') ? 'active' : '' }}">
-                                    <i class="far fa-file nav-icon"></i>
-                                    <p>Créer un membre</p>
-                                </a>
-                            </li>
-                        </ul>
-                    @endpermission
-                </li>
+                        @permission('Personnel', 'create')
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="{{ route('personnels.create') }}"
+                                        class="nav-link {{ request()->is('personnels/create') ? 'active' : '' }}">
+                                        <i class="far fa-file nav-icon"></i>
+                                        <p>Créer un membre</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        @endpermission
+                    </li>
 
                 @endpermission
                 @permission('Nouvelle', 'read')
-                <li
-                    class="nav-item has-treeview
+                    <li
+                        class="nav-item has-treeview
             {{ request()->is('nouvelles') ? 'menu-open' : '' }} {{ request()->is('nouvelles/create') ? 'menu-open' : '' }}
             ">
-                    <a href="#"
-                        class="nav-link
+                        <a href="#"
+                            class="nav-link
                 {{ request()->is('nouvelles') ? 'active' : '' }} {{ request()->is('nouvelles/create') ? 'active' : '' }}">
-                        <i class="nav-icon fas fa-folder"></i>
-                        <p>
-                            News
-                            <i class="fas fa-angle-left right"></i>
-                        </p>
-                    </a>
+                            <i class="nav-icon fas fa-folder"></i>
+                            <p>
+                                News
+                                <i class="fas fa-angle-left right"></i>
+                            </p>
+                        </a>
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
                                 <a href="{{ route('nouvelles.index') }}"
@@ -244,33 +281,33 @@
                                 </a>
                             </li>
                         </ul>
-                    @permission('Nouvelle', 'create')
-                        <ul class="nav nav-treeview">
-                            <li class="nav-item">
-                                <a href="{{ route('nouvelles.create') }}"
-                                    class="nav-link {{ request()->is('nouvelles/create') ? 'active' : '' }}">
-                                    <i class="far fa-file nav-icon"></i>
-                                    <p>Créer une info</p>
-                                </a>
-                            </li>
-                        </ul>
-                    @endpermission
-                </li>
+                        @permission('Nouvelle', 'create')
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="{{ route('nouvelles.create') }}"
+                                        class="nav-link {{ request()->is('nouvelles/create') ? 'active' : '' }}">
+                                        <i class="far fa-file nav-icon"></i>
+                                        <p>Créer une info</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        @endpermission
+                    </li>
                 @endpermission
                 @permission('Temoignage', 'read')
-                <li
-                    class="nav-item has-treeview
+                    <li
+                        class="nav-item has-treeview
             {{ request()->is('temoignages') ? 'menu-open' : '' }} {{ request()->is('temoignages/create') ? 'menu-open' : '' }}
             ">
-                    <a href="#"
-                        class="nav-link
+                        <a href="#"
+                            class="nav-link
                 {{ request()->is('temoignages') ? 'active' : '' }} {{ request()->is('temoignages/create') ? 'active' : '' }}">
-                        <i class="nav-icon fas fa-folder"></i>
-                        <p>
-                            Témoignages
-                            <i class="fas fa-angle-left right"></i>
-                        </p>
-                    </a>
+                            <i class="nav-icon fas fa-folder"></i>
+                            <p>
+                                Témoignages
+                                <i class="fas fa-angle-left right"></i>
+                            </p>
+                        </a>
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
                                 <a href="{{ route('temoignages.index') }}"
@@ -280,31 +317,33 @@
                                 </a>
                             </li>
                         </ul>
-                    @permission('Temoignage', 'create')
-                        <ul class="nav nav-treeview">
-                            <li class="nav-item">
-                                <a href="{{ route('temoignages.create') }}"
-                                    class="nav-link {{ request()->is('temoignages/create') ? 'active' : '' }}">
-                                    <i class="far fa-file nav-icon"></i>
-                                    <p>Créer un témoignage</p>
-                                </a>
-                            </li>
-                        </ul>
-                    @endpermission
-                </li>
+                        @permission('Temoignage', 'create')
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="{{ route('temoignages.create') }}"
+                                        class="nav-link {{ request()->is('temoignages/create') ? 'active' : '' }}">
+                                        <i class="far fa-file nav-icon"></i>
+                                        <p>Créer un témoignage</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        @endpermission
+                    </li>
                 @endpermission
                 @permission('LogetteInfo', 'read')
-                <li class="nav-item has-treeview
+                    <li
+                        class="nav-item has-treeview
         {{ request()->is('logette_infos') ? 'menu-open' : '' }}
         ">
-                    <a href="#" class="nav-link
+                        <a href="#"
+                            class="nav-link
             {{ request()->is('logette_infos') ? 'active' : '' }}">
-                        <i class="nav-icon fas fa-folder"></i>
-                        <p>
-                            Précommandes Logette
-                            <i class="fas fa-angle-left right"></i>
-                        </p>
-                    </a>
+                            <i class="nav-icon fas fa-folder"></i>
+                            <p>
+                                Précommandes Logette
+                                <i class="fas fa-angle-left right"></i>
+                            </p>
+                        </a>
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
                                 <a href="{{ route('logette_infos.index') }}"
@@ -314,20 +353,20 @@
                                 </a>
                             </li>
                         </ul>
-                </li>
+                    </li>
                 @endpermission
                 @permission('Galery', 'read')
-                <li class="nav-item has-treeview
+                    <li class="nav-item has-treeview
         {{ request()->is('galeries') ? 'menu-open' : '' }}
         ">
-                    <a href="#" class="nav-link
+                        <a href="#" class="nav-link
             {{ request()->is('galeries') ? 'active' : '' }}">
-                        <i class="nav-icon fas fa-folder"></i>
-                        <p>
-                            Galerie
-                            <i class="fas fa-angle-left right"></i>
-                        </p>
-                    </a>
+                            <i class="nav-icon fas fa-folder"></i>
+                            <p>
+                                Galerie
+                                <i class="fas fa-angle-left right"></i>
+                            </p>
+                        </a>
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
                                 <a href="{{ route('galeries.index') }}"
@@ -337,44 +376,44 @@
                                 </a>
                             </li>
                         </ul>
-                </li>
+                    </li>
                 @endpermission
                 @permission('Clientsatisfait', 'read')
-                <li
-                    class="nav-item has-treeview {{ request()->is('clientsatisfaits') ? 'menu-open' : '' }}
+                    <li
+                        class="nav-item has-treeview {{ request()->is('clientsatisfaits') ? 'menu-open' : '' }}
             {{ request()->is('clientsatisfaits/create') ? 'menu-open' : '' }}">
-                    <a href="#"
-                        class="nav-link {{ request()->is('clientsatisfaits') ? 'active' : '' }}
+                        <a href="#"
+                            class="nav-link {{ request()->is('clientsatisfaits') ? 'active' : '' }}
                 {{ request()->is('clientsatisfaits/create') ? 'active' : '' }}">
-                        <i class="nav-icon fas fa-folder"></i>
-                        <p>
-                            Partenaires
-                            <i class="fas fa-angle-left right"></i>
-                        </p>
-                    </a>
-                    <ul class="nav nav-treeview">
-                        <li class="nav-item">
-                            <a href="{{ route('clientsatisfaits.index') }}"
-                                class="nav-link {{ request()->is('clientsatisfaits') ? 'active' : '' }}">
-                                <i class="far fa-file nav-icon"></i>
-                                <p>Partenaires</p>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
+                            <i class="nav-icon fas fa-folder"></i>
+                            <p>
+                                Partenaires
+                                <i class="fas fa-angle-left right"></i>
+                            </p>
+                        </a>
+                        <ul class="nav nav-treeview">
+                            <li class="nav-item">
+                                <a href="{{ route('clientsatisfaits.index') }}"
+                                    class="nav-link {{ request()->is('clientsatisfaits') ? 'active' : '' }}">
+                                    <i class="far fa-file nav-icon"></i>
+                                    <p>Partenaires</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
                 @endpermission
                 @permission('Contact', 'read')
-                <li class="nav-item has-treeview
+                    <li class="nav-item has-treeview
         {{ request()->is('contacts') ? 'menu-open' : '' }}
         ">
-                    <a href="#" class="nav-link
+                        <a href="#" class="nav-link
             {{ request()->is('contacts') ? 'active' : '' }}">
-                        <i class="nav-icon fas fa-folder"></i>
-                        <p>
-                            Mails de contact
-                            <i class="fas fa-angle-left right"></i>
-                        </p>
-                    </a>
+                            <i class="nav-icon fas fa-folder"></i>
+                            <p>
+                                Mails de contact
+                                <i class="fas fa-angle-left right"></i>
+                            </p>
+                        </a>
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
                                 <a href="{{ route('contacts.index') }}"
@@ -384,7 +423,7 @@
                                 </a>
                             </li>
                         </ul>
-                </li>
+                    </li>
                 @endpermission
             </ul>
         </nav>

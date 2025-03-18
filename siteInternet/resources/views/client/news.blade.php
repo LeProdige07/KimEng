@@ -10,6 +10,18 @@
 @include('include_pages.client_breadcrumb')
 <section class="posts section">
     <div class="container">
+        <div class="row justify-content-center">
+            <!-- section title -->
+            <div class="col-lg-6">
+                <div class="title text-center">
+                    <h2>Toutes les publications</h2>
+                    <p>Soyez au courant de l'évolution de Kim Engineering et n'hésitez pas à nous contacter pour solliciter nos services.
+                    </p>
+                    <div class="border"></div>
+                </div>
+            </div>
+            <!-- /section title -->
+        </div>
         <div class="row">
             <!-- /section title -->
             @foreach ($nouvelles as $nouvelle)

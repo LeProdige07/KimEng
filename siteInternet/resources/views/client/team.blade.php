@@ -56,7 +56,7 @@
             <div class="col-xl-6 col-lg-8">
                 <div class="title text-center ">
                     <h2>Kim Engineering</h2>
-                    <p>Voici le personnel chef de Kim Engineering.</p>
+                    <p>Avec une équipe compétente et professionnelle, nous vous offrons un travail de qualité et garanti.</p>
                     <div class="border"></div>
                 </div>
             </div>

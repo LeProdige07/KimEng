@@ -14,6 +14,7 @@ Route::resource('clientsatisfaits', App\Http\Controllers\ClientSatisfaitControll
 Route::resource('contacts', App\Http\Controllers\ContactController::class)->middleware('access:Contact');
 Route::resource('galeries', App\Http\Controllers\GaleryController::class)->middleware('access:Galery');
 Route::resource('formations', App\Http\Controllers\FormationController::class)->middleware('access:Formation');
+Route::resource('logettes', App\Http\Controllers\LogetteController::class)->middleware('access:Logette');
 Route::resource('logette_infos', App\Http\Controllers\LogetteInfoController::class)->middleware('access:LogetteInfo');
 
 // Activer et Désactiver un élément avec l'attribut status
@@ -31,6 +32,10 @@ Route::get('/activer_project/{id}', [App\Http\Controllers\ProjectController::cla
 Route::get('/desactiver_project/{id}', [App\Http\Controllers\ProjectController::class, 'desactiver_project']);
 Route::get('/activer_service/{id}', [App\Http\Controllers\ServiceController::class, 'activer_service']);
 Route::get('/desactiver_service/{id}', [App\Http\Controllers\ServiceController::class, 'desactiver_service']);
+Route::get('/activer_formation/{id}', [App\Http\Controllers\FormationController::class, 'activer_formation']);
+Route::get('/desactiver_formation/{id}', [App\Http\Controllers\FormationController::class, 'desactiver_formation']);
+Route::get('/activer_logette/{id}', [App\Http\Controllers\LogetteController::class, 'activer_logette']);
+Route::get('/desactiver_logette/{id}', [App\Http\Controllers\LogetteController::class, 'desactiver_logette']);
 
 Route::get('/precommandes_export_excel', [App\Http\Controllers\LogetteInfoController::class, 'precommandes_export_excel']);
 Route::get('/precommandes_export_pdf', [App\Http\Controllers\LogetteInfoController::class, 'precommandes_export_pdf']);

@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Galery;
 use App\Models\ClientSatisfait;
 use App\Models\Formation;
+use App\Models\Logette;
 use App\Models\Nouvelle;
 use App\Models\Personnel;
 use App\Models\Project;
@@ -64,7 +65,8 @@ class ClientController extends Controller
 
     public function logette(){
         $services = Service::where('status', 1)->limit(6)->get();
-        return view('client.logette',compact('services'));
+        $logettes = Logette::where('status', 1)->limit(6)->get();
+        return view('client.logette',compact('services','logettes'));
     }
 
     public function precommandes_logettes(){
