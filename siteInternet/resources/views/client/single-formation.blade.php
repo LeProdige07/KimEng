@@ -15,27 +15,27 @@ Formation : {{$formation->formation_name}}
 @include('include_pages.client_breadcrumb')
 
 <section class="blog-details section">
-    <div class="container">
+    <div class="container p-0">
 
-        <div class="row">
-            <div class="col-lg-8">
+        <div class="row w-100">
+            <div class="col-lg-6">
                 <div class="hero-slider">
-                    <div class="slider-item">
+                    <div class="">
                         <img loading="lazy" class="img-fluid"
                         src="{{ asset('storage/formation_images/' . $formation->formation_image1, env('REDIRECT_HTTPS')) }}"
                         alt="formation-image" />
                     </div>
-                    <div class="slider-item">
+                    <div class="">
                         <img loading="lazy" class="img-fluid"
                         src="{{ asset('storage/formation_images/' . $formation->formation_image2, env('REDIRECT_HTTPS')) }}"
                         alt="formation-image" />
                     </div>
-                    <div class="slider-item">
+                    <div class="">
                         <img loading="lazy" class="img-fluid"
                         src="{{ asset('storage/formation_images/' . $formation->formation_image3, env('REDIRECT_HTTPS')) }}"
                         alt="formation-image" />
                     </div>
-                    <div class="slider-item">
+                    <div class="">
                         <img loading="lazy" class="img-fluid"
                         src="{{ asset('storage/formation_images/' . $formation->formation_image4, env('REDIRECT_HTTPS')) }}"
                         alt="formation-image" />
@@ -43,8 +43,8 @@ Formation : {{$formation->formation_name}}
                 </div>
             </div>
 
-            <div class="col-lg-4 mt-5 mt-lg-0">
-                <h3 class="column-title mrt-0">Formation : {{$formation->formation_name}}</h3>
+            <div class="col-lg-6 mt-5 mt-lg-0 p-3">
+                <h3 class="column-title mrt-0">Formation : {{$formation->formation_name}}</h3> <br>
                 <p>{{ $formation->formation_description }}</p>
             </div>
         </div>

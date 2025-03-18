@@ -45,11 +45,45 @@
 </section>
 <section class="promo-video section-sm">
     <div class="container">
+        <div class="row w-100">
+            <div class="col-lg-6">
+                <div class="hero-slider">
+                    <div class="">
+                        <img loading="lazy" class="img-fluid"
+                        src="frontend/images/logos/logologetteblack.jpg"
+                        alt="formation-image" />
+                    </div>
+                    <div class="">
+                        <img loading="lazy" class="img-fluid"
+                        src="frontend/images/logos/logologetteblack.jpg"
+                        alt="formation-image" />
+                    </div>
+                    <div class="">
+                        <img loading="lazy" class="img-fluid"
+                        src="frontend/images/logos/logologetteblack.jpg"
+                        alt="formation-image" />
+                    </div>
+                    <div class="">
+                        <img loading="lazy" class="img-fluid"
+                        src="frontend/images/logos/logologetteblack.jpg"
+                        alt="formation-image" />
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 mt-5 mt-lg-0 p-3">
+                <h3 class="column-title mrt-0">Projectname</h3> <br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, deleniti dolorem
+                    mollitia quidem consequatur et saepe doloribus fugit culpa tenetur repudiandae fugiat
+                     minima cum placeat. Consequuntur optio fugit itaque consequatur!</p>
+            </div>
+        </div>
+    </div><br><br><br>
+    <div class="container">
         <div class="row justify-content-center">
             <!-- section title -->
             <div class="col-xl-6 col-lg-8">
                 <div class="title text-center">
-                    <h2>LA SOLUTION NUMERIQUE</h2>
+                    <h2>LA SOLUTION NUMERIQUE</h2> <br>
                     <p>Une logette qui gère automatiquement l'électricité d'un batiment fonctionnant en monophasé,
                         biphasé
                         et triphasé; connectée à une application mobile qui permet la commande à distance de la logette

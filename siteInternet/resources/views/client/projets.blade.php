@@ -36,7 +36,7 @@
                     <div class="col-12">
                         <div class="filtr-container">
                             @foreach ($projects as $project)
-                                <div class="col-md-3 col-sm-6 col-xs-6 filtr-item "
+                                <div class="col-md-3 col-sm-6 col-xs-6 filtr-item"
                                     data-category="{{ $project->project_service }}">
                                     <div class="portfolio-block">
                                         <img class="img-fluid"
