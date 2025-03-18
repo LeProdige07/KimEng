@@ -19,15 +19,22 @@ class ClientController extends Controller
         $services = Service::where('status', 1)->limit(4)->get();
         $temoignages = Temoignage::all()->where('status', 1);
         $nouvelles = Nouvelle::all()->where('status', 1);
+        $count_partenaires = count(ClientSatisfait::all());
+        $count_projets = count(Project::all());
+        $count_formations = count(Formation::all());
 
-        return view('client.home', compact('services','temoignages', 'nouvelles'));
+        return view('client.home', compact('services','temoignages', 'nouvelles','count_partenaires','count_formations','count_projets'));
     }
 
     public function about(){
         $personnels = Personnel::where('status', 1)->limit(3)->get();
         $services = Service::where('status', 1)->limit(6)->get();
         $galeries = Galery::all();
-        return view('client.about', compact('services','personnels','galeries'));
+        $count_partenaires = count(ClientSatisfait::all());
+        $count_projets = count(Project::all());
+        $count_formations = count(Formation::all());
+
+        return view('client.about', compact('services','personnels','galeries','count_partenaires','count_formations','count_projets'));
     }
 
     public function services_us(){

@@ -42,7 +42,7 @@
                                             alt="formation image">
                                         <div class="caption">
                                             <a class="search-icon"
-                                                href="storage/formation_images/{{ $formation->formation_image2 }}"
+                                                href="storage/formation_images/{{ $formation->formation_image1 }}"
                                                 data-lightbox="image-1">
                                                 <i class="tf-ion-ios-search-strong"></i>
                                             </a>

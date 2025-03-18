@@ -19,12 +19,12 @@ class Contact extends Model
      * @return response()
      */
     public static function boot() {
-  
+
         parent::boot();
-  
+
         static::created(function ($item) {
-                
-            $adminEmail = "makiladon14@gmail.com";
+
+            $adminEmail = "info@kimengin.com";
             Mail::to($adminEmail)->send(new ContactMail($item));
         });
     }

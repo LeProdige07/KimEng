@@ -1,23 +1,23 @@
 @extends('layouts.client')
 @section('title')
-    A propos de nous
+À propos de nous
 @endsection
 @section('content')
     @include('include_pages.client_navbar')
 @section('breadcrumb_title')
-A propos de nous
+À propos de nous
 @endsection
 @include('include_pages.client_breadcrumb')
     <section class="about-shot-info section-sm">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 mt-20">
-                    <h2 class="mb-3">Nous créons des solutions<br> numériques</h2>
-                    <p>Nous vous écoutons, comprenons vos besoins, les étudions pour vous apporter une solution numérique
+                    <h2 class="mb-3">Nous créons des solutions<br> numériques.</h2>
+                    <p>Nous vous écoutons, comprenons vos besoins et les étudions pour vous apporter une solution numérique
                         adaptée.</p>
-                    <p>Nous concevons des solutions numériques adaptées à vos besoins, à un prix accessible à tout le monde.
+                    <p>Nous concevons des solutions numériques adaptées à vos besoins avec un tarif accessible à tout le monde.
                     </p>
-                    <p>Une équipe qui travaille avec dévouement et passion, qui réalise chaque projet avec beaucoup de
+                    <p>Nous avons une équipe qui travaille avec dévouement et passion pour réaliser chaque projet avec beaucoup de
                         professionalisme.
                         Nous ne cesserons de vous donner le meilleur de nous.
                     </p>
@@ -36,7 +36,7 @@ A propos de nous
                 <div class="col-md-6">
                     <h3>Notre Mission</h3>
                     <p>Est de résoudre les problèmes de la société avec la nouvelle technologie, d'où notre projet phare
-                        de la LOGETTE INTELLIGENTE qui vient résoudre un problème réel de mauvaise manipulation de
+                        KIM BOX qui vient résoudre un problème réel de mauvaise manipulation de
                         l'électricité en facilitant
                         la gestion de l'électricité à partir d'un système intelligent.</p>
                     <p>Et parce que chaque jour, nous sommes confrontés aux problèmes, nous continuerons à innover pour vous
@@ -47,7 +47,7 @@ A propos de nous
                 </div>
                 <div class="col-md-6 mt-5 mt-md-0">
                     <h3>Notre Vision</h3>
-                    <p>Nous sommes à l'ère du numérique, la 4ème révolution industrielle. La seule option qui se présente à
+                    <p>Nous sommes à l'ère du numérique : la 4ème révolution industrielle. La seule option qui se présente à
                         notre pays est de s'adapter ou de disparaitre.
                         C'est pourquoi nous nous donnons cette lourde charge de révolutionner la RDC et l'Afrique avec les nouvelles
                         technologies.</p>
@@ -80,7 +80,7 @@ A propos de nous
                 <div class="col-xl-6 col-lg-8">
                     <div class="title text-center">
                         <h2>Notre Galerie</h2>
-                        <p>Vous pouvez voir les activités de Kim Engineering à travers ces images.</p>
+                        <p>Vivez les activités de Kim Engineering à travers ces images.</p>
                         <div class="border"></div>
                     </div>
                 </div>
@@ -89,7 +89,7 @@ A propos de nous
                 <div class="col-md-12">
                     <div class="company-gallery">
                         @foreach ($galeries as $galery)
-                            <img loading="lazy" src="storage/galery_images/{{$galery->image}}" alt="">
+                            <img loading="lazy" src="storage/galery_images/{{$galery->image}}" alt="event image">
                         @endforeach
                     </div>
                 </div>

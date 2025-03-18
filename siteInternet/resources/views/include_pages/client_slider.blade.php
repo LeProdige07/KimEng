@@ -22,8 +22,7 @@
                     <p data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".5">Nous résolvons les
                         problèmes
                         de la société avec la nouvelle technologie.
-                        <br>Nous réalisons des projets utiles à la société à l'instar de notre projet : Logette
-                        Intelligente.
+                        <br>Nous réalisons des projets utiles à la société à l'instar de notre projet phare : KIM BOX.
                     </p>
                     <a data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".8" class="btn btn-main"
                         href="{{ url('/services_us') }}">Voir plus</a>
@@ -38,10 +37,10 @@
                     <h1 data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1">KIM
                         ENGINEERING</h1>
                     <p data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".5">Est une entreprise qui
-                        oeuvre dans la conception électronique,
-                        Internet des objets,<br> le développement Web, la domotique, Robotique,<br> Installation
-                        électrique des batiments
-                        <br>et installation Photovoltaique.
+                        oeuvre dans la Conception électronique,
+                        l'Internet des objets,<br> le développement Web et Mobile, la Domotique, la Robotique,<br> les installations
+                        électriques et photovoltaïques
+                        <br>des batiments.
                     </p>
                     <a data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".8" class="btn btn-main"
                         href="{{ url('/services_us') }}">Voir plus</a>

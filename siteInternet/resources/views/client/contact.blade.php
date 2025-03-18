@@ -28,13 +28,13 @@
                 <h3 class="mb-3">Kim Engineering</h3>
                 <p>Est à votre disposition 24h/24 et 7j/7. Vous pouvez nous contacter via ce formulaire ou vous rendre
                     directement à nos locaux situés à l'adresse ci-dessous.
-                    Nous sommes aptes à vous répondre et à vous servir.
+                    Nous sommes aptes à vous répondre et à vous servir.<br>
                     Votre satisfaction est notre devoir.
                 </p>
                 <ul class="contact-short-info mt-4">
                     <li class="mb-3">
                         <i class="tf-ion-ios-home"></i>
-                        <span>Ishango, Immeuble ROYAL, Boulevard du 30 Juin, KINSHASA/GOMBE</span>
+                        <span>Immeuble JAGUAR, Première étage - Local 106, 15/17 Colonnel Ebeya, Gombe, Commerce, KINSHASA, République Démocratique du Congo.</span>
                     </li>
                     <li class="mb-3">
                         <i class="tf-ion-android-phone-portrait"></i>
@@ -42,7 +42,7 @@
                     </li>
                     <li>
                         <i class="tf-ion-android-mail"></i>
-                        <span>Adresse email: info@kimengineering.net</span>
+                        <span>Adresse email: info@kimengin.com</span>
                     </li>
                 </ul>
                 <!-- Footer Social Links -->
@@ -123,10 +123,7 @@
     =            Google Map            =
     =================================-->
 <div class="google-map">
-    <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3978.51320786657!2d15.27958437420923!3d-4.314208346431063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a6a33db0da55555%3A0x8457cd4f0770bce8!2sIshango%20Startups%20Center!5e0!3m2!1sfr!2scd!4v1687270887531!5m2!1sfr!2scd"
-        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3978.559370960803!2d15.310889600000007!3d-4.305386899999992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a6a3367f3514623%3A0x73114a3cd065821e!2sJaquar%20Kinshasa!5e0!3m2!1sfr!2scd!4v1734690824969!5m2!1sfr!2scd" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 <!--====  End of Google Map  ====-->
 

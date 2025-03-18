@@ -4,7 +4,9 @@
             <div class="row justify-content-around">
                 <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
                     <h3>A Propos de Nous</h3>
-                    <p><b>Kim Engineering</b> est une entreprise qui oeuvre dans la conception électronique, Internet des objets,le Web, la domotique, Robotique, Installation électrique des batiments et installation Photovoltaique.</p>
+                    <p><b>Kim Engineering</b> est une entreprise qui oeuvre dans la conception électronique,
+                        l'internet des objets, le développement web et mobile, la domotique, la robotique,
+                        les installations électriques et photovoltaïques des bâtiments.</p>
                 </div>
                 <!-- End of .col-sm-3 -->
 

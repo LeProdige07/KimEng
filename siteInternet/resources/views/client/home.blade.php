@@ -8,9 +8,9 @@ Accueil
 
 @include('include_pages.client_slider')
 
-@include('include_pages.client_services')
-
 @include('include_pages.client_apropos')
+
+@include('include_pages.client_services')
 
 @include('include_pages.client_contenu')
 

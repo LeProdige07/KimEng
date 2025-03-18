@@ -5,8 +5,8 @@
 			<div class="col-lg-6">
 				<div class="title text-center">
 					<h2>Nous sommes Kim Engineering.</h2>
-					<p>Une entreprise qui oeuvre dans la conception électronique, Internet des objets, 
-					le Web, Domotique, Robotique, Installation électrique des batiments et installation Photovoltaique.</p>
+					<p>Une entreprise qui oeuvre dans la conception électronique, l'internet des objets,
+					le développement web et mobile, la domotique, la robotique, les installations électriques et photovoltaïques des bâtiments.</p>
 					<div class="border"></div>
 				</div>
 			</div>
@@ -20,12 +20,11 @@
 			</div>
 			<div class="col-md-6">
 				<ul class="checklist">
-					<li>Nous effectuons des installations électriques selon les normes préétablies pour votre sécurité et celle de tous vos équipements.</li>
-					<li>Dans la Robotique, nous faisons la motorisation des vos portails pour vous faciliter l'accès dans vos parcelles et créons des robots capables d'effectuer des tâches à votre place.</li>
-					<li>Dans le Web, nous créons des Sites Internet à titre marketing ou publicitaire 
-						tant pour des entreprises que pour des individus.</li>
-					<li>Des applications Web pour la gestion de vos services et pour toutes autres fins.</li>
-					<li>Dans la domotique, nous faisons des installations des systèmes intelligents permettant d'économiser votre électricité.</li>
+					<li>Nous effectuons des installations électriques selon les normes électriques pour votre sécurité et celle de tous vos équipements.</li>
+					<li>Nous mettons en place des projets de robotique avec la création des robots personnalisés.</li>
+					<li>Nous créons des sites internet de grande qualité tant pour des entreprises que pour des particuliers.</li>
+					<li>Nous développons des applications web pour la gestion de vos services afin de numériser vos projets.</li>
+					<li>Nous faisons des installations des systèmes intelligents permettant d'économiser l'électricité dans vos bâtiments.</li>
 				</ul>
 				<a href="{{url('/about')}}" class="btn btn-main mt-20">En savoir plus</a>
 			</div>

@@ -18,8 +18,8 @@
                 <!-- section title -->
                 <div class="title text-center">
                     <h2>L'équipe</h2>
-                    <p>Kim Engineering est composé d'une équipe pleine de valeurs dans le travail
-                        telles que l'étude, la conception, l'innovation et la cohésion.</p>
+                    <p>Kim Engineering est composé d'une équipe qualifiée et pleine de valeurs dans le travail
+                        telles que l'innovation, la cohésion, l'intégrité, l'honnêteté, la responsabilité et l'engagement.</p>
                     <div class="border"></div>
                 </div>
                 <!-- /section title -->
@@ -37,7 +37,7 @@
                 <ul class="feature-list">
                     <li> <i class="tf-ion-android-checkmark-circle"></i>Electronique industrielle</li>
                     <li> <i class="tf-ion-android-checkmark-circle"></i>Electricité</li>
-                    <li> <i class="tf-ion-android-checkmark-circle"></i>Développement Web</li>
+                    <li> <i class="tf-ion-android-checkmark-circle"></i>Développement Web et Mobile</li>
                     <li> <i class="tf-ion-android-checkmark-circle"></i>Internet des objets</li>
                     <li> <i class="tf-ion-android-checkmark-circle"></i>Robotique</li>
                     <li> <i class="tf-ion-android-checkmark-circle"></i>Domotique</li>
@@ -56,7 +56,7 @@
             <div class="col-xl-6 col-lg-8">
                 <div class="title text-center ">
                     <h2>Kim Engineering</h2>
-                    <p>Voici la présentation de l'organigramme chef de Kim Engineering composé d'ingénieurs qualifiés.</p>
+                    <p>Voici le personnel chef de Kim Engineering.</p>
                     <div class="border"></div>
                 </div>
             </div>

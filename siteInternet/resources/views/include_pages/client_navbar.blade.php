@@ -21,7 +21,7 @@
                         <a class="nav-link" href="{{ url('/') }}">Accueil</a>
                     </li>
                     <li class="nav-item {{ request()->is('about') ? 'active' : '' }}">
-                        <a class="nav-link" href="{{ url('/about') }}">A propos</a>
+                        <a class="nav-link" href="{{ url('/about') }}">À propos</a>
                     </li>
                     <li class="nav-item {{ request()->is('services_us') ? 'active' : '' }}">
                         <a class="nav-link" href="{{url('/services_us')}}">Services</a>
@@ -36,7 +36,7 @@
                         <a class="nav-link" href="{{url('/team')}}">Equipe</a>
                     </li>
                     <li class="nav-item {{ request()->is('logette') ? 'active' : '' }}">
-                        <a class="nav-link" href="{{url('/logette')}}">Logette</a>
+                        <a class="nav-link" href="{{url('/logette')}}">KIM BOX</a>
                     </li>
                     <li class="nav-item {{ request()->is('news') ? 'active' : '' }}">
                         <a class="nav-link" href="{{url('/news')}}">News</a>

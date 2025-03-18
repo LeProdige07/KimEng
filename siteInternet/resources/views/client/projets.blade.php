@@ -18,7 +18,7 @@
                 <!-- section title -->
                 <div class="title text-center">
                     <h2>Nos Projets</h2>
-                    <p>Avec comme projet principal la logette intelligente, nous disposons d'un département avec un
+                    <p>Avec comme projet principal la KIM BOX, nous disposons d'un
                         personnel capable de vous accompagner dans la réalisation de vos projets relatifs à chacun de
                         nos services.</p>
                     <div class="border"></div>
@@ -44,7 +44,7 @@
                                             alt="project image">
                                         <div class="caption">
                                             <a class="search-icon"
-                                                href="storage/project_images/{{ $project->project_image2 }}"
+                                                href="storage/project_images/{{ $project->project_image1 }}"
                                                 data-lightbox="image-1">
                                                 <i class="tf-ion-ios-search-strong"></i>
                                             </a>
@@ -62,7 +62,7 @@
         </div> <!-- end row -->
     </div> <!-- end container -->
 </section> <!-- End section -->
-@include('include_pages.client_contenu')
+{{-- @include('include_pages.client_contenu') --}}
 
 @include('include_pages.client_footer')
 @endsection

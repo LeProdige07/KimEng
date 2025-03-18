@@ -25,7 +25,7 @@
                                 <div class="service-icon text-center">
                                     <img loading="lazy"
                                         src="{{ asset('storage/service_images/' . $service->service_image, env('REDIRECT_HTTPS')) }}"
-                                        alt="amazing caves coverimage" class="img-fluid">
+                                        alt="service image" class="img-fluid">
                                 </div>
                                 <br>
                                 <h4>{{$service->service_name}}</h4>

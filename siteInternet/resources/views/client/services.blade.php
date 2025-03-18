@@ -18,7 +18,7 @@
             <div class="col-xl-6 col-lg-8">
                 <div class="title text-center">
                     <h2 id="service">Nos Services</h2>
-                    <p>Nous vous proposons des services modernes et très adaptés à vos besoins.</p>
+                    <p>Nous proposons des services modernes et très adaptés à vos besoins.</p>
                     <div class="border"></div>
                 </div>
             </div>
@@ -31,7 +31,7 @@
                     <div class="service-block p-4 {{ $service->color($key) }} text-center">
                         <div class="service-icon text-center">
                             <img loading="lazy" src="{{ asset('storage/service_images/' . $service->service_image, env('REDIRECT_HTTPS')) }}"
-                                alt="amazing caves coverimage" class="img-fluid">
+                                alt="service image" class="img-fluid">
                         </div>
                         <h3>{{ $service->service_name }}</h3>
                         <p>{{ $service->service_description }}</p>
@@ -64,7 +64,7 @@
                     <h2 class="mb-3">Travaillons en toute simplicité</h2>
                     <p>Actuellement, il y a beaucoup de généralistes sur le marché, la bonne qualité dans le travail
                         n'est pas assurée. Nous mettons sur le marché des ingénieurs performants disposant d'années
-                        d'expériences professionnelles.</p>
+                        d'expérience professionnelle.</p>
                     <a href="contact.html" class="btn btn-main mt-20">Contactez-nous</a>
                 </div>
             </div>
@@ -86,7 +86,7 @@
                             </div>
                         </li>
                         <li class="mb-3">
-                            <span>Développement Web</span>
+                            <span>Développement Web et Mobile</span>
                             <div class="progress">
                                 <div class="progress-bar" style="width: 99%;">
                                 </div>
@@ -131,11 +131,9 @@
             <div class="col-xl-6 col-lg-8 text-center">
                 <div class="title">
                     <h2>Nos valeurs</h2>
-                    <p>Nos réalisations, projet après projet, font de nous une des meilleures entreprises en Nouvelle
-                        Technologie.
-                        Dans notre travail, nous cultivons des valeurs telles que l'étude, la conception, l'innovation,
-                        la cohésion
-                        et sommes fiers de vous satisfaire avec nos services.
+                    <p>Nos réalisations, projet après projet, font de nous une des meilleures entreprises dans le numérique en République Démocratique du Congo.
+						Dans notre travail, nous cultivons des valeurs telles que l'innovation, la cohésion, l'intégrité, l'honnêteté, la responsabilité et l'engagement
+						qui rendent fiers de continuer à vous satisfaire avec nos services.
                     </p>
                 </div>
             </div>
